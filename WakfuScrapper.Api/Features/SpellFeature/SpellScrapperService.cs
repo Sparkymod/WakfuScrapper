@@ -62,8 +62,8 @@ public class SpellScrapperService
 
                 spell.PaText = paText ?? "";
 
-                var paImageNode = paNode.SelectSingleNode(".//span[@class='picto']/img");
-                var paImage = paImageNode?.GetAttributeValue("src", string.Empty);
+                var paImageNode = paNode?.SelectSingleNode(".//span[@class='picto']/img") ?? null;
+                var paImage = paImageNode?.GetAttributeValue("src", string.Empty) ?? "";
 
                 spell.PaImg = paImage ?? "";
 
@@ -111,10 +111,12 @@ public class SpellScrapperService
         }
     }
 
-    private static List<SpellEffect> ExtractSpellEffects(HtmlNode effectsNode)
+    private static List<SpellEffect> ExtractSpellEffects(HtmlNode? effectsNode)
     {
         var effects = new List<SpellEffect>();
-        var effectNodes = effectsNode.SelectNodes(".//div[@class='ak-list-element']");
+        var effectNodes = effectsNode?.SelectNodes(".//div[@class='ak-list-element']");
+        if (effectNodes is null) return effects;
+
         foreach (var node in effectNodes)
         {
             var titleNode = node.SelectSingleNode(".//div[@class='ak-title']");
