@@ -1,0 +1,11 @@
+@WakfuScrapper.Api_HostAddress = http://localhost:5034
+
+GET {{WakfuScrapper.Api_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{WakfuScrapper.Api_HostAddress}}/todos/1
+Accept: application/json
+
+###

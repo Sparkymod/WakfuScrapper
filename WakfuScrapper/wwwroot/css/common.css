@@ -1,0 +1,2805 @@
+.ak-emblem, .ak-entitylook {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.ak-icon-big.ak-breeds, .ak-icon-big.ak-consumables, .ak-icon-big.ak-dungeons, .ak-icon-big.ak-equipments, .ak-icon-big.ak-jobs, .ak-icon-big.ak-monsters, .ak-icon-big.ak-pets, .ak-icon-big.ak-quests, .ak-icon-big.ak-ressources, .ak-icon-big.ak-rides, .ak-icon-big.ak-weapons, .ak-icon-big.ak-arms, .ak-icon-big.ak-plus-dofus, .ak-icon-big.ak-plus_dofus, .ak-icon-big.ak-mmo, .ak-icon-big.ak-egg, .ak-icon-big.ak-encyclopedia, .ak-icon-big.ak-sets, .ak-icon-big.ak-spells, .ak-icon-big.ak-universe, .ak-icon-big.ak-tutorials, .ak-icon-big.ak-various, .ak-icon-big.ak-neutral, .ak-icon-big.ak-tx-neutral, .ak-icon-big.ak-move, .ak-icon-big.ak-tx-movementpoints, .ak-icon-big.ak-water, .ak-icon-big.ak-tx-chance, .ak-icon-big.ak-tx-dodge, .ak-icon-big.ak-boostcritical, .ak-icon-big.ak-range, .ak-icon-big.ak-tx-range, .ak-icon-big.ak-air, .ak-icon-big.ak-tx-agility, .ak-icon-big.ak-tx-initiative, .ak-icon-big.ak-action, .ak-icon-big.ak-tx-actionpoints, .ak-icon-big.ak-tx-prospecting, .ak-icon-big.ak-life, .ak-icon-big.ak-tx-vitality, .ak-icon-big.ak-tx-lifepoints, .ak-icon-big.ak-tx-wisdom, .ak-icon-big.ak-fire, .ak-icon-big.ak-tx-intelligence, .ak-icon-big.ak-earth, .ak-icon-big.ak-tx-strength, .ak-icon-big.ak-tx-escape, .ak-icon-big.ak-tx-invocation, .ak-icon-big.ak-tx-tackle, .ak-icon-big.ak-resist, .ak-icon-big.ak-boost, .ak-icon-big.ak-tx-summonablecreaturesboost, .ak-icon-big.ak-tx-criticalhit, .ak-icon-big.ak-armor, .ak-icon-big.ak-accessories, .ak-icon-big.ak-personalization, .ak-icon-big.ak-rarity-0, .ak-icon-big.ak-rarity-1, .ak-icon-big.ak-rarity-2, .ak-icon-big.ak-rarity-3, .ak-icon-big.ak-rarity-4, .ak-icon-big.ak-rarity-6, .ak-icon-big.ak-rarity-5, .ak-icon-big.ak-rarity-7, .ak-icon-big.ak-rarity-triangle-0, .ak-icon-big.ak-rarity-triangle-1, .ak-icon-big.ak-rarity-triangle-2, .ak-icon-big.ak-rarity-triangle-3, .ak-icon-big.ak-rarity-triangle-4, .ak-icon-big.ak-rarity-triangle-5, .ak-icon-big.ak-rarity-triangle-6, .ak-icon-big.ak-rarity-triangle-7, .ak-icon-big.ak-companions, .ak-icon-big.ak-tree-tutorial, .ak-icon-med.ak-breeds, .ak-icon-med.ak-consumables, .ak-icon-med.ak-dungeons, .ak-icon-med.ak-equipments, .ak-icon-med.ak-jobs, .ak-icon-med.ak-monsters, .ak-icon-med.ak-pets, .ak-icon-med.ak-quests, .ak-icon-med.ak-ressources, .ak-icon-med.ak-rides, .ak-icon-med.ak-weapons, .ak-icon-med.ak-arms, .ak-icon-med.ak-plus-dofus, .ak-icon-med.ak-plus_dofus, .ak-icon-med.ak-mmo, .ak-icon-med.ak-egg, .ak-icon-med.ak-encyclopedia, .ak-icon-med.ak-sets, .ak-icon-med.ak-spells, .ak-icon-med.ak-universe, .ak-icon-med.ak-tutorials, .ak-icon-med.ak-various, .ak-icon-med.ak-neutral, .ak-icon-med.ak-tx-neutral, .ak-icon-med.ak-move, .ak-icon-med.ak-tx-movementpoints, .ak-icon-med.ak-water, .ak-icon-med.ak-tx-chance, .ak-icon-med.ak-tx-dodge, .ak-icon-med.ak-boostcritical, .ak-icon-med.ak-range, .ak-icon-med.ak-tx-range, .ak-icon-med.ak-air, .ak-icon-med.ak-tx-agility, .ak-icon-med.ak-tx-initiative, .ak-icon-med.ak-action, .ak-icon-med.ak-tx-actionpoints, .ak-icon-med.ak-tx-prospecting, .ak-icon-med.ak-life, .ak-icon-med.ak-tx-vitality, .ak-icon-med.ak-tx-lifepoints, .ak-icon-med.ak-tx-wisdom, .ak-icon-med.ak-fire, .ak-icon-med.ak-tx-intelligence, .ak-icon-med.ak-earth, .ak-icon-med.ak-tx-strength, .ak-icon-med.ak-tx-escape, .ak-icon-med.ak-tx-invocation, .ak-icon-med.ak-tx-tackle, .ak-icon-med.ak-resist, .ak-icon-med.ak-boost, .ak-icon-med.ak-tx-summonablecreaturesboost, .ak-icon-med.ak-tx-criticalhit, .ak-icon-med.ak-armor, .ak-icon-med.ak-accessories, .ak-icon-med.ak-personalization, .ak-icon-med.ak-rarity-0, .ak-icon-med.ak-rarity-1, .ak-icon-med.ak-rarity-2, .ak-icon-med.ak-rarity-3, .ak-icon-med.ak-rarity-4, .ak-icon-med.ak-rarity-6, .ak-icon-med.ak-rarity-5, .ak-icon-med.ak-rarity-7, .ak-icon-med.ak-rarity-triangle-0, .ak-icon-med.ak-rarity-triangle-1, .ak-icon-med.ak-rarity-triangle-2, .ak-icon-med.ak-rarity-triangle-3, .ak-icon-med.ak-rarity-triangle-4, .ak-icon-med.ak-rarity-triangle-5, .ak-icon-med.ak-rarity-triangle-6, .ak-icon-med.ak-rarity-triangle-7, .ak-icon-med.ak-companions, .ak-icon-med.ak-tree-tutorial, .ak-icon-small.ak-breeds, .ak-icon-small.ak-consumables, .ak-icon-small.ak-dungeons, .ak-icon-small.ak-equipments, .ak-icon-small.ak-jobs, .ak-icon-small.ak-monsters, .ak-icon-small.ak-pets, .ak-icon-small.ak-quests, .ak-icon-small.ak-ressources, .ak-icon-small.ak-rides, .ak-icon-small.ak-weapons, .ak-icon-small.ak-arms, .ak-icon-small.ak-plus-dofus, .ak-icon-small.ak-plus_dofus, .ak-icon-small.ak-mmo, .ak-icon-small.ak-egg, .ak-icon-small.ak-encyclopedia, .ak-icon-small.ak-sets, .ak-icon-small.ak-spells, .ak-icon-small.ak-universe, .ak-icon-small.ak-tutorials, .ak-icon-small.ak-various, .ak-icon-small.ak-neutral, .ak-icon-small.ak-tx-neutral, .ak-icon-small.ak-move, .ak-icon-small.ak-tx-movementpoints, .ak-icon-small.ak-water, .ak-icon-small.ak-tx-chance, .ak-icon-small.ak-tx-dodge, .ak-icon-small.ak-boostcritical, .ak-icon-small.ak-range, .ak-icon-small.ak-tx-range, .ak-icon-small.ak-air, .ak-icon-small.ak-tx-agility, .ak-icon-small.ak-tx-initiative, .ak-icon-small.ak-action, .ak-icon-small.ak-tx-actionpoints, .ak-icon-small.ak-tx-prospecting, .ak-icon-small.ak-life, .ak-icon-small.ak-tx-vitality, .ak-icon-small.ak-tx-lifepoints, .ak-icon-small.ak-tx-wisdom, .ak-icon-small.ak-fire, .ak-icon-small.ak-tx-intelligence, .ak-icon-small.ak-earth, .ak-icon-small.ak-tx-strength, .ak-icon-small.ak-tx-escape, .ak-icon-small.ak-tx-invocation, .ak-icon-small.ak-tx-tackle, .ak-icon-small.ak-resist, .ak-icon-small.ak-boost, .ak-icon-small.ak-tx-summonablecreaturesboost, .ak-icon-small.ak-tx-criticalhit, .ak-icon-small.ak-armor, .ak-icon-small.ak-accessories, .ak-icon-small.ak-personalization, .ak-icon-small.ak-rarity-0, .ak-icon-small.ak-rarity-1, .ak-icon-small.ak-rarity-2, .ak-icon-small.ak-rarity-3, .ak-icon-small.ak-rarity-4, .ak-icon-small.ak-rarity-6, .ak-icon-small.ak-rarity-5, .ak-icon-small.ak-rarity-7, .ak-icon-small.ak-rarity-triangle-0, .ak-icon-small.ak-rarity-triangle-1, .ak-icon-small.ak-rarity-triangle-2, .ak-icon-small.ak-rarity-triangle-3, .ak-icon-small.ak-rarity-triangle-4, .ak-icon-small.ak-rarity-triangle-5, .ak-icon-small.ak-rarity-triangle-6, .ak-icon-small.ak-rarity-triangle-7, .ak-icon-small.ak-companions, .ak-icon-small.ak-tree-tutorial, .ak-icon-tiny.ak-breeds, .ak-icon-tiny.ak-consumables, .ak-icon-tiny.ak-dungeons, .ak-icon-tiny.ak-equipments, .ak-icon-tiny.ak-jobs, .ak-icon-tiny.ak-monsters, .ak-icon-tiny.ak-pets, .ak-icon-tiny.ak-quests, .ak-icon-tiny.ak-ressources, .ak-icon-tiny.ak-rides, .ak-icon-tiny.ak-weapons, .ak-icon-tiny.ak-arms, .ak-icon-tiny.ak-plus-dofus, .ak-icon-tiny.ak-plus_dofus, .ak-icon-tiny.ak-mmo, .ak-icon-tiny.ak-egg, .ak-icon-tiny.ak-encyclopedia, .ak-icon-tiny.ak-sets, .ak-icon-tiny.ak-spells, .ak-icon-tiny.ak-universe, .ak-icon-tiny.ak-tutorials, .ak-icon-tiny.ak-various, .ak-icon-tiny.ak-neutral, .ak-icon-tiny.ak-tx-neutral, .ak-icon-tiny.ak-move, .ak-icon-tiny.ak-tx-movementpoints, .ak-icon-tiny.ak-water, .ak-icon-tiny.ak-tx-chance, .ak-icon-tiny.ak-tx-dodge, .ak-icon-tiny.ak-boostcritical, .ak-icon-tiny.ak-range, .ak-icon-tiny.ak-tx-range, .ak-icon-tiny.ak-air, .ak-icon-tiny.ak-tx-agility, .ak-icon-tiny.ak-tx-initiative, .ak-icon-tiny.ak-action, .ak-icon-tiny.ak-tx-actionpoints, .ak-icon-tiny.ak-tx-prospecting, .ak-icon-tiny.ak-life, .ak-icon-tiny.ak-tx-vitality, .ak-icon-tiny.ak-tx-lifepoints, .ak-icon-tiny.ak-tx-wisdom, .ak-icon-tiny.ak-fire, .ak-icon-tiny.ak-tx-intelligence, .ak-icon-tiny.ak-earth, .ak-icon-tiny.ak-tx-strength, .ak-icon-tiny.ak-tx-escape, .ak-icon-tiny.ak-tx-invocation, .ak-icon-tiny.ak-tx-tackle, .ak-icon-tiny.ak-resist, .ak-icon-tiny.ak-boost, .ak-icon-tiny.ak-tx-summonablecreaturesboost, .ak-icon-tiny.ak-tx-criticalhit, .ak-icon-tiny.ak-armor, .ak-icon-tiny.ak-accessories, .ak-icon-tiny.ak-personalization, .ak-icon-tiny.ak-rarity-0, .ak-icon-tiny.ak-rarity-1, .ak-icon-tiny.ak-rarity-2, .ak-icon-tiny.ak-rarity-3, .ak-icon-tiny.ak-rarity-4, .ak-icon-tiny.ak-rarity-6, .ak-icon-tiny.ak-rarity-5, .ak-icon-tiny.ak-rarity-7, .ak-icon-tiny.ak-rarity-triangle-0, .ak-icon-tiny.ak-rarity-triangle-1, .ak-icon-tiny.ak-rarity-triangle-2, .ak-icon-tiny.ak-rarity-triangle-3, .ak-icon-tiny.ak-rarity-triangle-4, .ak-icon-tiny.ak-rarity-triangle-5, .ak-icon-tiny.ak-rarity-triangle-6, .ak-icon-tiny.ak-rarity-triangle-7, .ak-icon-tiny.ak-companions, .ak-icon-tiny.ak-tree-tutorial {
+    background-image: url("/wakfu/ng/modules/icons/sprite_encyclopedia.png");
+    background-repeat: no-repeat
+}
+
+.ak-icon-big.ak-breeds, .ak-icon-big.ak-consumables, .ak-icon-big.ak-dungeons, .ak-icon-big.ak-equipments, .ak-icon-big.ak-jobs, .ak-icon-big.ak-monsters, .ak-icon-big.ak-pets, .ak-icon-big.ak-quests, .ak-icon-big.ak-ressources, .ak-icon-big.ak-rides, .ak-icon-big.ak-weapons, .ak-icon-big.ak-arms, .ak-icon-big.ak-plus-dofus, .ak-icon-big.ak-plus_dofus, .ak-icon-big.ak-mmo, .ak-icon-big.ak-egg, .ak-icon-big.ak-encyclopedia, .ak-icon-big.ak-sets, .ak-icon-big.ak-spells, .ak-icon-big.ak-universe, .ak-icon-big.ak-tutorials, .ak-icon-big.ak-various, .ak-icon-big.ak-armor, .ak-icon-big.ak-accessories, .ak-icon-big.ak-personalization, .ak-icon-big.ak-companions, .ak-icon-big.ak-tree-tutorial, .ak-icon-big.ak-wakfu {
+    background-size: 126px auto
+}
+
+.ak-icon-big.ak-breeds {
+    background-position: 0 -10px
+}
+
+.ak-icon-big.ak-consumables {
+    background-position: 0 -95px
+}
+
+.ak-icon-big.ak-dungeons {
+    background-position: 0 -180px
+}
+
+.ak-icon-big.ak-equipments {
+    background-position: 0 -265px
+}
+
+.ak-icon-big.ak-jobs {
+    background-position: 0 -348px
+}
+
+.ak-icon-big.ak-monsters {
+    background-position: 0 -435px
+}
+
+.ak-icon-big.ak-pets {
+    background-position: 0 -520px
+}
+
+.ak-icon-big.ak-quests {
+    background-position: 0 -605px
+}
+
+.ak-icon-big.ak-ressources {
+    background-position: 0 -690px
+}
+
+.ak-icon-big.ak-rides {
+    background-position: 0 -775px
+}
+
+.ak-icon-big.ak-weapons, .ak-icon-big.ak-plus-dofus, .ak-icon-big.ak-arms {
+    background-position: 0 -860px
+}
+
+.ak-icon-big.ak-egg {
+    background-position: 0 -945px
+}
+
+.ak-icon-big.ak-encyclopedia {
+    background-position: 0 -1030px
+}
+
+.ak-icon-big.ak-sets {
+    background-position: 0 -1115px
+}
+
+.ak-icon-big.ak-spells {
+    background-position: 0 -1197px
+}
+
+.ak-icon-big.ak-universe {
+    background-position: 0 -1285px
+}
+
+.ak-icon-big.ak-tutorials {
+    background-position: 0 -1364px
+}
+
+.ak-icon-big.ak-various {
+    background-position: 0 -1820px
+}
+
+.ak-icon-big.ak-armor {
+    background-position: 0 -1546px
+}
+
+.ak-icon-big.ak-accessories {
+    background-position: 0 -1641px
+}
+
+.ak-icon-big.ak-personalization {
+    background-position: 0 -1729px
+}
+
+.ak-icon-big.ak-companions {
+    background-position: -1px -1905px
+}
+
+.ak-icon-big.ak-tree-tutorial {
+    background-position: 0 -1969px
+}
+
+.ak-icon-med.ak-breeds, .ak-icon-med.ak-consumables, .ak-icon-med.ak-dungeons, .ak-icon-med.ak-equipments, .ak-icon-med.ak-jobs, .ak-icon-med.ak-monsters, .ak-icon-med.ak-pets, .ak-icon-med.ak-quests, .ak-icon-med.ak-ressources, .ak-icon-med.ak-rides, .ak-icon-med.ak-weapons, .ak-icon-med.ak-arms, .ak-icon-med.ak-plus-dofus, .ak-icon-med.ak-plus_dofus, .ak-icon-med.ak-mmo, .ak-icon-med.ak-egg, .ak-icon-med.ak-encyclopedia, .ak-icon-med.ak-sets, .ak-icon-med.ak-spells, .ak-icon-med.ak-universe, .ak-icon-med.ak-tutorials, .ak-icon-med.ak-armor, .ak-icon-med.ak-various, .ak-icon-med.ak-accessories, .ak-icon-med.ak-personalization, .ak-icon-med.ak-companions, .ak-icon-med.ak-tree-tutorial {
+    background-size: 89px auto
+}
+
+.ak-icon-med.ak-breeds {
+    background-position: 0 -5px
+}
+
+.ak-icon-med.ak-consumables {
+    background-position: 0 -65px
+}
+
+.ak-icon-med.ak-dungeons {
+    background-position: 0 -126px
+}
+
+.ak-icon-med.ak-equipments {
+    background-position: 0 -187px
+}
+
+.ak-icon-med.ak-jobs {
+    background-position: 0 -242px
+}
+
+.ak-icon-med.ak-monsters {
+    background-position: 0 -306px
+}
+
+.ak-icon-med.ak-pets {
+    background-position: 0 -366px
+}
+
+.ak-icon-med.ak-quests {
+    background-position: 0 -432px
+}
+
+.ak-icon-med.ak-ressources {
+    background-position: 0 -486px
+}
+
+.ak-icon-med.ak-rides {
+    background-position: 0 -546px
+}
+
+.ak-icon-med.ak-weapons, .ak-icon-med.ak-mmo, .ak-icon-med.ak-arms {
+    background-position: 0 -605px
+}
+
+.ak-icon-med.ak-egg {
+    background-position: 0 -669px
+}
+
+.ak-icon-med.ak-encyclopedia {
+    background-position: 0 -725px
+}
+
+.ak-icon-med.ak-sets {
+    background-position: 0 -787px
+}
+
+.ak-icon-med.ak-spells {
+    background-position: 0 -842px
+}
+
+.ak-icon-med.ak-universe {
+    background-position: 0 -906px
+}
+
+.ak-icon-med.ak-tutorials {
+    background-position: 0 -967px
+}
+
+.ak-icon-med.ak-plus-dofus, .ak-icon-med.ak-plus_dofus {
+    background-position: 0 -1026px
+}
+
+.ak-icon-med.ak-armor {
+    background-position: 0 -1088px
+}
+
+.ak-icon-med.ak-various {
+    background-position: 0 -1283px
+}
+
+.ak-icon-med.ak-accessories {
+    background-position: 0 -1157px
+}
+
+.ak-icon-med.ak-personalization {
+    background-position: 0 -1219px
+}
+
+.ak-icon-med.ak-companions {
+    background-position: 0 -1340px
+}
+
+.ak-icon-med.ak-tree-tutorial {
+    background-position: -1px -1394px
+}
+
+.ak-icon-small.ak-neutral, .ak-icon-small.ak-wakfu, .ak-icon-small.ak-tx-neutral, .ak-icon-small.ak-move, .ak-icon-small.ak-tx-movementpoints, .ak-icon-small.ak-water, .ak-icon-small.ak-tx-chance, .ak-icon-small.ak-range, .ak-icon-small.ak-tx-range, .ak-icon-small.ak-air, .ak-icon-small.ak-tx-agility, .ak-icon-small.ak-tx-initiative, .ak-icon-small.ak-action, .ak-icon-small.ak-tx-actionpoints, .ak-icon-small.ak-tx-prospecting, .ak-icon-small.ak-life, .ak-icon-small.ak-tx-vitality, .ak-icon-small.ak-tx-lifepoints, .ak-icon-small.ak-tx-wisdom, .ak-icon-small.ak-fire, .ak-icon-small.ak-tx-intelligence, .ak-icon-small.ak-earth, .ak-icon-small.ak-tx-strength, .ak-icon-small.ak-tx-escape, .ak-icon-small.ak-tx-invocation, .ak-icon-small.ak-tx-tackle, .ak-icon-small.ak-tx-dodge, .ak-icon-small.ak-boostcritical, .ak-icon-small.ak-boost, .ak-icon-small.ak-resist, .ak-icon-small.ak-tx-summonablecreaturesboost, .ak-icon-small.ak-tx-criticalhit, .ak-icon-small.ak-armor, .ak-icon-small.ak-accessories, .ak-icon-small.ak-personalization, .ak-icon-small.ak-rarity-0, .ak-icon-small.ak-rarity-1, .ak-icon-small.ak-rarity-2, .ak-icon-small.ak-rarity-3, .ak-icon-small.ak-rarity-4, .ak-icon-small.ak-rarity-5, .ak-icon-small.ak-rarity-6, .ak-icon-small.ak-rarity-7, .ak-icon-small.ak-rarity-triangle-0, .ak-icon-small.ak-rarity-triangle-1, .ak-icon-small.ak-rarity-triangle-2, .ak-icon-small.ak-rarity-triangle-3, .ak-icon-small.ak-rarity-triangle-4, .ak-icon-small.ak-rarity-triangle-5, .ak-icon-small.ak-rarity-triangle-6, .ak-icon-small.ak-rarity-triangle-7, .ak-icon-small.ak-companions {
+    background-size: auto auto
+}
+
+.ak-icon-small.ak-neutral, .ak-icon-small.ak-tx-neutral {
+    background-position: -97px -15px
+}
+
+.ak-icon-small.ak-move, .ak-icon-small.ak-tx-movementpoints {
+    background-position: -97px -52px
+}
+
+.ak-icon-small.ak-water, .ak-icon-small.ak-tx-chance {
+    background-position: -97px -89px
+}
+
+.ak-icon-small.ak-range, .ak-icon-small.ak-tx-range {
+    background-position: -97px -128px
+}
+
+.ak-icon-small.ak-air, .ak-icon-small.ak-tx-agility {
+    background-position: -97px -167px
+}
+
+.ak-icon-small.ak-tx-initiative {
+    background-position: -97px -205px
+}
+
+.ak-icon-small.ak-action, .ak-icon-small.ak-tx-actionpoints {
+    background-position: -97px -243px
+}
+
+.ak-icon-small.ak-tx-prospecting {
+    background-position: -97px -279px
+}
+
+.ak-icon-small.ak-life, .ak-icon-small.ak-tx-vitality, .ak-icon-small.ak-tx-lifepoints {
+    background-position: -97px -319px
+}
+
+.ak-icon-small.ak-tx-wisdom {
+    background-position: -97px -358px
+}
+
+.ak-icon-small.ak-fire, .ak-icon-small.ak-tx-intelligence {
+    background-position: -97px -394px
+}
+
+.ak-icon-small.ak-earth, .ak-icon-small.ak-tx-strength {
+    background-position: -97px -432px
+}
+
+.ak-icon-small.ak-tx-escape {
+    background-position: -97px -468px
+}
+
+.ak-icon-small.ak-tx-invocation, .ak-icon-small.ak-tx-summonablecreaturesboost {
+    background-position: -97px -507px
+}
+
+.ak-icon-small.ak-tx-tackle {
+    background-position: -97px -545px
+}
+
+.ak-icon-small.ak-tx-criticalhit {
+    background-position: -97px -588px
+}
+
+.ak-icon-small.ak-armor {
+    background-position: -97px -588px
+}
+
+.ak-icon-small.ak-accessories {
+    background-position: -97px -588px
+}
+
+.ak-icon-small.ak-personalization {
+    background-position: -97px -588px
+}
+
+.ak-icon-small.ak-rarity-0 {
+    background-position: -97px -642px
+}
+
+.ak-icon-small.ak-rarity-1 {
+    background-position: -97px -674px
+}
+
+.ak-icon-small.ak-rarity-2 {
+    background-position: -97px -706px
+}
+
+.ak-icon-small.ak-rarity-3 {
+    background-position: -97px -738px
+}
+
+.ak-icon-small.ak-rarity-4 {
+    background-position: -97px -770px
+}
+
+.ak-icon-small.ak-rarity-5 {
+    background-position: -97px -802px
+}
+
+.ak-icon-small.ak-rarity-6 {
+    background-position: -97px -1182px
+}
+
+.ak-icon-small.ak-rarity-7 {
+    background-position: -97px -1120px
+}
+
+.ak-icon-small.ak-rarity-triangle-0 {
+    background-position: -97px -837px
+}
+
+.ak-icon-small.ak-rarity-triangle-1 {
+    background-position: -97px -870px
+}
+
+.ak-icon-small.ak-rarity-triangle-2 {
+    background-position: -97px -907px
+}
+
+.ak-icon-small.ak-rarity-triangle-3 {
+    background-position: -97px -940px
+}
+
+.ak-icon-small.ak-rarity-triangle-4 {
+    background-position: -97px -973px
+}
+
+.ak-icon-small.ak-rarity-triangle-5 {
+    background-position: -97px -1007px
+}
+
+.ak-icon-small.ak-rarity-triangle-6 {
+    background-position: -97px -1209px
+}
+
+.ak-icon-small.ak-tx-dodge {
+    background-position: -97px -122px
+}
+
+.ak-icon-small.ak-wakfu {
+    background-position: -97px -468px
+}
+
+.ak-icon-small.ak-boostcritical {
+    background-position: -96px -354px
+}
+
+.ak-icon-small.ak-boost {
+    background-position: -96px -1092px
+}
+
+.ak-icon-small.ak-resist {
+    background-position: -96px -1049px
+}
+
+.ak-icon-small.ak-companions {
+    background-position: -96px -1049px
+}
+
+.ak-icon-tiny.ak-weapons, .ak-icon-tiny.ak-plus-dofus, .ak-icon-tiny.ak-mmo, .ak-icon-tiny.ak-egg {
+    background-size: 64px auto
+}
+
+.ak-icon-tiny.ak-egg {
+    background-position: 0 -478px
+}
+
+.ak-icon-tiny.ak-weapons, .ak-icon-tiny.ak-plus-dofus, .ak-icon-tiny.ak-mmo {
+    background-position: 0 -436px
+}
+
+.ak-icon-big.ak-polls, .ak-icon-big.ak-alliance, .ak-icon-big.ak-alliance-pages, .ak-icon-big.ak-animation, .ak-icon-big.ak-builds, .ak-icon-big.ak-calendar, .ak-icon-big.ak-character, .ak-icon-big.ak-character-pages, .ak-icon-big.ak-devblog, .ak-icon-big.ak-directories, .ak-icon-big.ak-edition, .ak-icon-big.ak-editions-dofus, .ak-icon-big.ak-forum, .ak-icon-big.ak-guild, .ak-icon-big.ak-guild-pages, .ak-icon-big.ak-heroic, .ak-icon-big.ak-illustration, .ak-icon-big.ak-krosmaster, .ak-icon-big.ak-ladder-alliance, .ak-icon-big.ak-ladder-general, .ak-icon-big.ak-ladder-kolizeum, .ak-icon-big.ak-ladder-krosmaster, .ak-icon-big.ak-ladder-success, .ak-icon-big.ak-news, .ak-icon-big.ak-screenshot, .ak-icon-big.ak-server-offline, .ak-icon-big.ak-server-online, .ak-icon-big.ak-servers, .ak-icon-big.ak-sponsorship, .ak-icon-big.ak-success, .ak-icon-big.ak-support, .ak-icon-big.ak-videos, .ak-icon-big.ak-married, .ak-icon-big.ak-job-pages, .ak-icon-big.ak-rules, .ak-icon-big.ak-patchnote, .ak-icon-big.ak-filter, .ak-icon-big.ak-politics, .ak-icon-big.ak-wakfu, .ak-icon-med.ak-polls, .ak-icon-med.ak-alliance, .ak-icon-med.ak-alliance-pages, .ak-icon-med.ak-animation, .ak-icon-med.ak-builds, .ak-icon-med.ak-calendar, .ak-icon-med.ak-character, .ak-icon-med.ak-character-pages, .ak-icon-med.ak-devblog, .ak-icon-med.ak-directories, .ak-icon-med.ak-edition, .ak-icon-med.ak-editions-dofus, .ak-icon-med.ak-forum, .ak-icon-med.ak-guild, .ak-icon-med.ak-guild-pages, .ak-icon-med.ak-heroic, .ak-icon-med.ak-illustration, .ak-icon-med.ak-krosmaster, .ak-icon-med.ak-ladder-alliance, .ak-icon-med.ak-ladder-general, .ak-icon-med.ak-ladder-kolizeum, .ak-icon-med.ak-ladder-krosmaster, .ak-icon-med.ak-ladder-success, .ak-icon-med.ak-news, .ak-icon-med.ak-screenshot, .ak-icon-med.ak-server-offline, .ak-icon-med.ak-server-online, .ak-icon-med.ak-servers, .ak-icon-med.ak-sponsorship, .ak-icon-med.ak-success, .ak-icon-med.ak-support, .ak-icon-med.ak-videos, .ak-icon-med.ak-married, .ak-icon-med.ak-job-pages, .ak-icon-med.ak-rules, .ak-icon-med.ak-patchnote, .ak-icon-med.ak-filter, .ak-icon-med.ak-politics, .ak-icon-med.ak-wakfu, .ak-icon-tiny.ak-polls, .ak-icon-tiny.ak-alliance, .ak-icon-tiny.ak-alliance-pages, .ak-icon-tiny.ak-animation, .ak-icon-tiny.ak-builds, .ak-icon-tiny.ak-calendar, .ak-icon-tiny.ak-character, .ak-icon-tiny.ak-character-pages, .ak-icon-tiny.ak-devblog, .ak-icon-tiny.ak-directories, .ak-icon-tiny.ak-edition, .ak-icon-tiny.ak-editions-dofus, .ak-icon-tiny.ak-forum, .ak-icon-tiny.ak-guild, .ak-icon-tiny.ak-guild-pages, .ak-icon-tiny.ak-heroic, .ak-icon-tiny.ak-illustration, .ak-icon-tiny.ak-krosmaster, .ak-icon-tiny.ak-ladder-alliance, .ak-icon-tiny.ak-ladder-general, .ak-icon-tiny.ak-ladder-kolizeum, .ak-icon-tiny.ak-ladder-krosmaster, .ak-icon-tiny.ak-ladder-success, .ak-icon-tiny.ak-news, .ak-icon-tiny.ak-screenshot, .ak-icon-tiny.ak-server-offline, .ak-icon-tiny.ak-server-online, .ak-icon-tiny.ak-servers, .ak-icon-tiny.ak-sponsorship, .ak-icon-tiny.ak-success, .ak-icon-tiny.ak-support, .ak-icon-tiny.ak-videos, .ak-icon-tiny.ak-married, .ak-icon-tiny.ak-job-pages, .ak-icon-tiny.ak-rules, .ak-icon-tiny.ak-patchnote, .ak-icon-tiny.ak-filter, .ak-icon-tiny.ak-politics, .ak-icon-tiny.ak-wakfu {
+    background-image: url("/wakfu/ng/modules/icons/sprite_community.png");
+    background-repeat: no-repeat
+}
+
+.ak-icon-big.ak-polls, .ak-icon-big.ak-alliance, .ak-icon-big.ak-animation, .ak-icon-big.ak-builds, .ak-icon-big.ak-calendar, .ak-icon-big.ak-character, .ak-icon-big.ak-devblog, .ak-icon-big.ak-directories, .ak-icon-big.ak-edition, .ak-icon-big.ak-editions-dofus, .ak-icon-big.ak-forum, .ak-icon-big.ak-guild, .ak-icon-big.ak-guild-pages, .ak-icon-big.ak-heroic, .ak-icon-big.ak-illustration, .ak-icon-big.ak-krosmaster, .ak-icon-big.ak-ladder-alliance, .ak-icon-big.ak-ladder-general, .ak-icon-big.ak-ladder-kolizeum, .ak-icon-big.ak-ladder-krosmaster, .ak-icon-big.ak-ladder-success, .ak-icon-big.ak-news, .ak-icon-big.ak-screenshot, .ak-icon-big.ak-server-offline, .ak-icon-big.ak-server-online, .ak-icon-big.ak-servers, .ak-icon-big.ak-sponsorship, .ak-icon-big.ak-success, .ak-icon-big.ak-support, .ak-icon-big.ak-videos, .ak-icon-big.ak-married, .ak-icon-big.ak-rules, .ak-icon-big.ak-patchnote, .ak-icon-big.ak-filter, .ak-icon-big.ak-politics, .ak-icon-big.ak-wakfu {
+    background-size: 65px auto
+}
+
+.ak-icon-big.ak-polls {
+    background-position: 0 -10px
+}
+
+.ak-icon-big.ak-alliance {
+    background-position: 0 -95px
+}
+
+.ak-icon-big.ak-animation {
+    background-position: 0 -180px
+}
+
+.ak-icon-big.ak-builds {
+    background-position: 0 -265px
+}
+
+.ak-icon-big.ak-calendar {
+    background-position: 0 -350px
+}
+
+.ak-icon-big.ak-character {
+    background-position: 0 -435px
+}
+
+.ak-icon-big.ak-devblog {
+    background-position: 0 -520px
+}
+
+.ak-icon-big.ak-directories {
+    background-position: 0 -605px
+}
+
+.ak-icon-big.ak-editions-dofus, .ak-icon-big.ak-edition {
+    background-position: 0 -690px
+}
+
+.ak-icon-big.ak-forum {
+    background-position: 0 -775px
+}
+
+.ak-icon-big.ak-guild {
+    background-position: 0 -860px
+}
+
+.ak-icon-big.ak-heroic {
+    background-position: 0 -945px
+}
+
+.ak-icon-big.ak-illustration {
+    background-position: 0 -1030px
+}
+
+.ak-icon-big.ak-krosmaster {
+    background-position: 0 -1115px
+}
+
+.ak-icon-big.ak-ladder-alliance {
+    background-position: 0 -1200px
+}
+
+.ak-icon-big.ak-ladder-general {
+    background-position: 0 -1285px
+}
+
+.ak-icon-big.ak-ladder-kolizeum {
+    background-position: 0 -1370px
+}
+
+.ak-icon-big.ak-ladder-krosmaster {
+    background-position: 0 -1455px
+}
+
+.ak-icon-big.ak-ladder-success {
+    background-position: 0 -1540px
+}
+
+.ak-icon-big.ak-news {
+    background-position: 0 -1625px
+}
+
+.ak-icon-big.ak-screenshot {
+    background-position: 0 -1710px
+}
+
+.ak-icon-big.ak-server-offline {
+    background-position: 0 -1795px
+}
+
+.ak-icon-big.ak-server-online {
+    background-position: 0 -1880px
+}
+
+.ak-icon-big.ak-servers {
+    background-position: 0 -1965px
+}
+
+.ak-icon-big.ak-sponsorship {
+    background-position: 0 -2050px
+}
+
+.ak-icon-big.ak-success {
+    background-position: 0 -2135px
+}
+
+.ak-icon-big.ak-support {
+    background-position: 0 -2220px
+}
+
+.ak-icon-big.ak-videos {
+    background-position: 0 -2305px
+}
+
+.ak-icon-big.ak-married {
+    background-position: 0 -2390px
+}
+
+.ak-icon-big.ak-job-pages {
+    background-position: 0 -2477px
+}
+
+.ak-icon-big.ak-rules {
+    background-position: 0 -2610px
+}
+
+.ak-icon-big.ak-filter {
+    background-position: 0 -2783px
+}
+
+.ak-icon-big.ak-patchnote {
+    background-position: 0 -2936px
+}
+
+.ak-icon-big.ak-politics {
+    background-position: 0 -3017px
+}
+
+.ak-icon-big.ak-wakfu {
+    background-position: 0 -2695px
+}
+
+.ak-icon-med.ak-polls, .ak-icon-med.ak-alliance, .ak-icon-med.ak-animation, .ak-icon-med.ak-builds, .ak-icon-med.ak-calendar, .ak-icon-med.ak-character, .ak-icon-med.ak-devblog, .ak-icon-med.ak-directories, .ak-icon-med.ak-editions-dofus, .ak-icon-med.ak-edition, .ak-icon-med.ak-forum, .ak-icon-med.ak-guild, .ak-icon-med.ak-heroic, .ak-icon-med.ak-illustration, .ak-icon-med.ak-krosmaster, .ak-icon-med.ak-ladder-alliance, .ak-icon-med.ak-ladder-general, .ak-icon-med.ak-ladder-kolizeum, .ak-icon-med.ak-ladder-krosmaster, .ak-icon-med.ak-ladder-success, .ak-icon-med.ak-news, .ak-icon-med.ak-screenshot, .ak-icon-med.ak-server-offline, .ak-icon-med.ak-server-online, .ak-icon-med.ak-servers, .ak-icon-med.ak-sponsorship, .ak-icon-med.ak-success, .ak-icon-med.ak-support, .ak-icon-med.ak-videos, .ak-icon-med.ak-married, .ak-icon-med.ak-rules, .ak-icon-med.ak-patchnote, .ak-icon-med.ak-filter, .ak-icon-med.ak-politics {
+    background-size: 46px auto
+}
+
+.ak-icon-med.ak-polls {
+    background-position: 0 -5px
+}
+
+.ak-icon-med.ak-alliance-pages, .ak-icon-med.ak-alliance {
+    background-position: 0 -65px
+}
+
+.ak-icon-med.ak-animation {
+    background-position: 0 -126px
+}
+
+.ak-icon-med.ak-builds {
+    background-position: 0 -187px
+}
+
+.ak-icon-med.ak-calendar {
+    background-position: 0 -245px
+}
+
+.ak-icon-med.ak-character, .ak-icon-med.ak-character-pages {
+    background-position: 0 -306px
+}
+
+.ak-icon-med.ak-devblog {
+    background-position: 0 -365px
+}
+
+.ak-icon-med.ak-directories {
+    background-position: 0 -426px
+}
+
+.ak-icon-med.ak-editions-dofus, .ak-icon-med.ak-edition {
+    background-position: 0 -486px
+}
+
+.ak-icon-med.ak-forum {
+    background-position: 0 -546px
+}
+
+.ak-icon-med.ak-guild, .ak-icon-med.ak-guild-pages {
+    background-position: 0 -605px
+}
+
+.ak-icon-med.ak-heroic {
+    background-position: 0 -666px
+}
+
+.ak-icon-med.ak-illustration {
+    background-position: 0 -725px
+}
+
+.ak-icon-med.ak-krosmaster {
+    background-position: 0 -788px
+}
+
+.ak-icon-med.ak-ladder-alliance {
+    background-position: 0 -845px
+}
+
+.ak-icon-med.ak-ladder-general {
+    background-position: 0 -906px
+}
+
+.ak-icon-med.ak-ladder-kolizeum {
+    background-position: 0 -966px
+}
+
+.ak-icon-med.ak-ladder-krosmaster {
+    background-position: 0 -1025px
+}
+
+.ak-icon-med.ak-ladder-success {
+    background-position: 0 -1086px
+}
+
+.ak-icon-med.ak-news {
+    background-position: 0 -1146px
+}
+
+.ak-icon-med.ak-screenshot {
+    background-position: 0 -1205px
+}
+
+.ak-icon-med.ak-server-offline {
+    background-position: 0 -1267px
+}
+
+.ak-icon-med.ak-server-online {
+    background-position: 0 -1328px
+}
+
+.ak-icon-med.ak-servers {
+    background-position: 0 -1386px
+}
+
+.ak-icon-med.ak-sponsorship {
+    background-position: 0 -1445px
+}
+
+.ak-icon-med.ak-success {
+    background-position: 0 -1509px
+}
+
+.ak-icon-med.ak-support {
+    background-position: 0 -1564px
+}
+
+.ak-icon-med.ak-videos {
+    background-position: 0 -1625px
+}
+
+.ak-icon-med.ak-married {
+    background-position: 0 -1692px
+}
+
+.ak-icon-med.ak-job-pages {
+    background-position: 0 -1750px
+}
+
+.ak-icon-med.ak-rules {
+    background-position: 0 -1846px
+}
+
+.ak-icon-med.ak-filter {
+    background-position: 0 -1963px
+}
+
+.ak-icon-med.ak-patchnote {
+    background-position: 0 -2074px
+}
+
+.ak-icon-med.ak-politics {
+    background-position: 0 -2074px
+}
+
+.ak-icon-tiny.ak-krosmaster, .ak-icon-tiny.ak-editions-dofus, .ak-icon-tiny.ak-edition, .ak-icon-tiny.ak-animation {
+    background-size: 34px auto
+}
+
+.ak-icon-tiny.ak-krosmaster {
+    background-position: 0 -583px
+}
+
+.ak-icon-tiny.ak-editions-dofus, .ak-icon-tiny.ak-edition {
+    background-position: 0 -360px
+}
+
+.ak-icon-tiny.ak-animation {
+    background-position: 0 -94px
+}
+
+.ak-tags-action {
+    background-image: url("/icons/sprite_tags_action.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 21px;
+    height: 21px
+}
+
+    .ak-tags-action.ak-tags-action-4 {
+        background-position: -5px -758px
+    }
+
+    .ak-tags-action.ak-tags-action-10 {
+        background-position: -4px -3px
+    }
+
+    .ak-tags-action.ak-tags-action-11 {
+        background-position: -4px -34px
+    }
+
+    .ak-tags-action.ak-tags-action-12 {
+        background-position: -3px -62px
+    }
+
+    .ak-tags-action.ak-tags-action-13 {
+        background-position: -4px -88px
+    }
+
+    .ak-tags-action.ak-tags-action-14 {
+        background-position: -5px -115px
+    }
+
+    .ak-tags-action.ak-tags-action-15 {
+        background-position: -5px -135px
+    }
+
+    .ak-tags-action.ak-tags-action-16 {
+        background-position: -5px -163px
+    }
+
+    .ak-tags-action.ak-tags-action-17 {
+        background-position: -5px -185px
+    }
+
+    .ak-tags-action.ak-tags-action-18 {
+        background-position: -5px -212px
+    }
+
+    .ak-tags-action.ak-tags-action-19 {
+        background-position: -5px -243px
+    }
+
+    .ak-tags-action.ak-tags-action-20 {
+        background-position: -1px -265px
+    }
+
+    .ak-tags-action.ak-tags-action-21 {
+        background-position: -5px -298px
+    }
+
+    .ak-tags-action.ak-tags-action-22 {
+        background-position: -5px -321px
+    }
+
+    .ak-tags-action.ak-tags-action-23 {
+        background-position: -4px -344px
+    }
+
+    .ak-tags-action.ak-tags-action-24 {
+        background-position: -2px -368px
+    }
+
+    .ak-tags-action.ak-tags-action-25 {
+        background-position: -3px -391px
+    }
+
+    .ak-tags-action.ak-tags-action-26 {
+        background-position: -5px -420px
+    }
+
+    .ak-tags-action.ak-tags-action-27 {
+        background-position: -5px -441px
+    }
+
+    .ak-tags-action.ak-tags-action-28 {
+        background-position: -5px -465px
+    }
+
+    .ak-tags-action.ak-tags-action-29 {
+        background-position: -5px -484px
+    }
+
+    .ak-tags-action.ak-tags-action-30 {
+        background-position: -5px -507px
+    }
+
+    .ak-tags-action.ak-tags-action-31 {
+        background-position: -5px -536px
+    }
+
+    .ak-tags-action.ak-tags-action-32 {
+        background-position: -3px -552px
+    }
+
+    .ak-tags-action.ak-tags-action-33 {
+        background-position: -2px -576px
+    }
+
+    .ak-tags-action.ak-tags-action-34 {
+        background-position: -8px -603px
+    }
+
+    .ak-tags-action.ak-tags-action-35 {
+        background-position: -3px -629px
+    }
+
+    .ak-tags-action.ak-tags-action-36 {
+        background-position: -5px -659px
+    }
+
+    .ak-tags-action.ak-tags-action-37 {
+        background-position: -5px -683px
+    }
+
+    .ak-tags-action.ak-tags-action-38 {
+        background-position: -5px -708px
+    }
+
+    .ak-tags-action.ak-tags-action-39 {
+        background-position: -5px -732px
+    }
+
+    .ak-tags-action.ak-tags-action-40 {
+        background-position: -5px -789px
+    }
+
+    .ak-tags-action.ak-tags-action-41 {
+        background-position: -5px -816px
+    }
+
+    .ak-tags-action.ak-tags-action-42 {
+        background-position: -5px -840px
+    }
+
+    .ak-tags-action.ak-tags-action-43 {
+        background-position: -5px -860px
+    }
+
+.ak-main-page aside .ak-panel .ak-panel-title-icon, .ak-light-skin .ak-main-container aside .ak-panel .ak-panel-title-icon {
+    left: 1px
+}
+
+.ak-emblem, .ak-entitylook {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.ak-icon-big.ak-breeds, .ak-icon-big.ak-consumables, .ak-icon-big.ak-dungeons, .ak-icon-big.ak-equipments, .ak-icon-big.ak-jobs, .ak-icon-big.ak-monsters, .ak-icon-big.ak-pets, .ak-icon-big.ak-quests, .ak-icon-big.ak-ressources, .ak-icon-big.ak-rides, .ak-icon-big.ak-weapons, .ak-icon-big.ak-arms, .ak-icon-big.ak-plus-dofus, .ak-icon-big.ak-plus_dofus, .ak-icon-big.ak-mmo, .ak-icon-big.ak-egg, .ak-icon-big.ak-encyclopedia, .ak-icon-big.ak-sets, .ak-icon-big.ak-spells, .ak-icon-big.ak-universe, .ak-icon-big.ak-tutorials, .ak-icon-big.ak-various, .ak-icon-big.ak-neutral, .ak-icon-big.ak-tx-neutral, .ak-icon-big.ak-move, .ak-icon-big.ak-tx-movementpoints, .ak-icon-big.ak-water, .ak-icon-big.ak-tx-chance, .ak-icon-big.ak-tx-dodge, .ak-icon-big.ak-boostcritical, .ak-icon-big.ak-range, .ak-icon-big.ak-tx-range, .ak-icon-big.ak-air, .ak-icon-big.ak-tx-agility, .ak-icon-big.ak-tx-initiative, .ak-icon-big.ak-action, .ak-icon-big.ak-tx-actionpoints, .ak-icon-big.ak-tx-prospecting, .ak-icon-big.ak-life, .ak-icon-big.ak-tx-vitality, .ak-icon-big.ak-tx-lifepoints, .ak-icon-big.ak-tx-wisdom, .ak-icon-big.ak-fire, .ak-icon-big.ak-tx-intelligence, .ak-icon-big.ak-earth, .ak-icon-big.ak-tx-strength, .ak-icon-big.ak-tx-escape, .ak-icon-big.ak-tx-invocation, .ak-icon-big.ak-tx-tackle, .ak-icon-big.ak-resist, .ak-icon-big.ak-boost, .ak-icon-big.ak-tx-summonablecreaturesboost, .ak-icon-big.ak-tx-criticalhit, .ak-icon-big.ak-armor, .ak-icon-big.ak-accessories, .ak-icon-big.ak-personalization, .ak-icon-big.ak-rarity-0, .ak-icon-big.ak-rarity-1, .ak-icon-big.ak-rarity-2, .ak-icon-big.ak-rarity-3, .ak-icon-big.ak-rarity-4, .ak-icon-big.ak-rarity-6, .ak-icon-big.ak-rarity-5, .ak-icon-big.ak-rarity-7, .ak-icon-big.ak-rarity-triangle-0, .ak-icon-big.ak-rarity-triangle-1, .ak-icon-big.ak-rarity-triangle-2, .ak-icon-big.ak-rarity-triangle-3, .ak-icon-big.ak-rarity-triangle-4, .ak-icon-big.ak-rarity-triangle-5, .ak-icon-big.ak-rarity-triangle-6, .ak-icon-big.ak-rarity-triangle-7, .ak-icon-big.ak-companions, .ak-icon-big.ak-tree-tutorial, .ak-icon-med.ak-breeds, .ak-icon-med.ak-consumables, .ak-icon-med.ak-dungeons, .ak-icon-med.ak-equipments, .ak-icon-med.ak-jobs, .ak-icon-med.ak-monsters, .ak-icon-med.ak-pets, .ak-icon-med.ak-quests, .ak-icon-med.ak-ressources, .ak-icon-med.ak-rides, .ak-icon-med.ak-weapons, .ak-icon-med.ak-arms, .ak-icon-med.ak-plus-dofus, .ak-icon-med.ak-plus_dofus, .ak-icon-med.ak-mmo, .ak-icon-med.ak-egg, .ak-icon-med.ak-encyclopedia, .ak-icon-med.ak-sets, .ak-icon-med.ak-spells, .ak-icon-med.ak-universe, .ak-icon-med.ak-tutorials, .ak-icon-med.ak-various, .ak-icon-med.ak-neutral, .ak-icon-med.ak-tx-neutral, .ak-icon-med.ak-move, .ak-icon-med.ak-tx-movementpoints, .ak-icon-med.ak-water, .ak-icon-med.ak-tx-chance, .ak-icon-med.ak-tx-dodge, .ak-icon-med.ak-boostcritical, .ak-icon-med.ak-range, .ak-icon-med.ak-tx-range, .ak-icon-med.ak-air, .ak-icon-med.ak-tx-agility, .ak-icon-med.ak-tx-initiative, .ak-icon-med.ak-action, .ak-icon-med.ak-tx-actionpoints, .ak-icon-med.ak-tx-prospecting, .ak-icon-med.ak-life, .ak-icon-med.ak-tx-vitality, .ak-icon-med.ak-tx-lifepoints, .ak-icon-med.ak-tx-wisdom, .ak-icon-med.ak-fire, .ak-icon-med.ak-tx-intelligence, .ak-icon-med.ak-earth, .ak-icon-med.ak-tx-strength, .ak-icon-med.ak-tx-escape, .ak-icon-med.ak-tx-invocation, .ak-icon-med.ak-tx-tackle, .ak-icon-med.ak-resist, .ak-icon-med.ak-boost, .ak-icon-med.ak-tx-summonablecreaturesboost, .ak-icon-med.ak-tx-criticalhit, .ak-icon-med.ak-armor, .ak-icon-med.ak-accessories, .ak-icon-med.ak-personalization, .ak-icon-med.ak-rarity-0, .ak-icon-med.ak-rarity-1, .ak-icon-med.ak-rarity-2, .ak-icon-med.ak-rarity-3, .ak-icon-med.ak-rarity-4, .ak-icon-med.ak-rarity-6, .ak-icon-med.ak-rarity-5, .ak-icon-med.ak-rarity-7, .ak-icon-med.ak-rarity-triangle-0, .ak-icon-med.ak-rarity-triangle-1, .ak-icon-med.ak-rarity-triangle-2, .ak-icon-med.ak-rarity-triangle-3, .ak-icon-med.ak-rarity-triangle-4, .ak-icon-med.ak-rarity-triangle-5, .ak-icon-med.ak-rarity-triangle-6, .ak-icon-med.ak-rarity-triangle-7, .ak-icon-med.ak-companions, .ak-icon-med.ak-tree-tutorial, .ak-icon-small.ak-breeds, .ak-icon-small.ak-consumables, .ak-icon-small.ak-dungeons, .ak-icon-small.ak-equipments, .ak-icon-small.ak-jobs, .ak-icon-small.ak-monsters, .ak-icon-small.ak-pets, .ak-icon-small.ak-quests, .ak-icon-small.ak-ressources, .ak-icon-small.ak-rides, .ak-icon-small.ak-weapons, .ak-icon-small.ak-arms, .ak-icon-small.ak-plus-dofus, .ak-icon-small.ak-plus_dofus, .ak-icon-small.ak-mmo, .ak-icon-small.ak-egg, .ak-icon-small.ak-encyclopedia, .ak-icon-small.ak-sets, .ak-icon-small.ak-spells, .ak-icon-small.ak-universe, .ak-icon-small.ak-tutorials, .ak-icon-small.ak-various, .ak-icon-small.ak-neutral, .ak-icon-small.ak-tx-neutral, .ak-icon-small.ak-move, .ak-icon-small.ak-tx-movementpoints, .ak-icon-small.ak-water, .ak-icon-small.ak-tx-chance, .ak-icon-small.ak-tx-dodge, .ak-icon-small.ak-boostcritical, .ak-icon-small.ak-range, .ak-icon-small.ak-tx-range, .ak-icon-small.ak-air, .ak-icon-small.ak-tx-agility, .ak-icon-small.ak-tx-initiative, .ak-icon-small.ak-action, .ak-icon-small.ak-tx-actionpoints, .ak-icon-small.ak-tx-prospecting, .ak-icon-small.ak-life, .ak-icon-small.ak-tx-vitality, .ak-icon-small.ak-tx-lifepoints, .ak-icon-small.ak-tx-wisdom, .ak-icon-small.ak-fire, .ak-icon-small.ak-tx-intelligence, .ak-icon-small.ak-earth, .ak-icon-small.ak-tx-strength, .ak-icon-small.ak-tx-escape, .ak-icon-small.ak-tx-invocation, .ak-icon-small.ak-tx-tackle, .ak-icon-small.ak-resist, .ak-icon-small.ak-boost, .ak-icon-small.ak-tx-summonablecreaturesboost, .ak-icon-small.ak-tx-criticalhit, .ak-icon-small.ak-armor, .ak-icon-small.ak-accessories, .ak-icon-small.ak-personalization, .ak-icon-small.ak-rarity-0, .ak-icon-small.ak-rarity-1, .ak-icon-small.ak-rarity-2, .ak-icon-small.ak-rarity-3, .ak-icon-small.ak-rarity-4, .ak-icon-small.ak-rarity-6, .ak-icon-small.ak-rarity-5, .ak-icon-small.ak-rarity-7, .ak-icon-small.ak-rarity-triangle-0, .ak-icon-small.ak-rarity-triangle-1, .ak-icon-small.ak-rarity-triangle-2, .ak-icon-small.ak-rarity-triangle-3, .ak-icon-small.ak-rarity-triangle-4, .ak-icon-small.ak-rarity-triangle-5, .ak-icon-small.ak-rarity-triangle-6, .ak-icon-small.ak-rarity-triangle-7, .ak-icon-small.ak-companions, .ak-icon-small.ak-tree-tutorial, .ak-icon-tiny.ak-breeds, .ak-icon-tiny.ak-consumables, .ak-icon-tiny.ak-dungeons, .ak-icon-tiny.ak-equipments, .ak-icon-tiny.ak-jobs, .ak-icon-tiny.ak-monsters, .ak-icon-tiny.ak-pets, .ak-icon-tiny.ak-quests, .ak-icon-tiny.ak-ressources, .ak-icon-tiny.ak-rides, .ak-icon-tiny.ak-weapons, .ak-icon-tiny.ak-arms, .ak-icon-tiny.ak-plus-dofus, .ak-icon-tiny.ak-plus_dofus, .ak-icon-tiny.ak-mmo, .ak-icon-tiny.ak-egg, .ak-icon-tiny.ak-encyclopedia, .ak-icon-tiny.ak-sets, .ak-icon-tiny.ak-spells, .ak-icon-tiny.ak-universe, .ak-icon-tiny.ak-tutorials, .ak-icon-tiny.ak-various, .ak-icon-tiny.ak-neutral, .ak-icon-tiny.ak-tx-neutral, .ak-icon-tiny.ak-move, .ak-icon-tiny.ak-tx-movementpoints, .ak-icon-tiny.ak-water, .ak-icon-tiny.ak-tx-chance, .ak-icon-tiny.ak-tx-dodge, .ak-icon-tiny.ak-boostcritical, .ak-icon-tiny.ak-range, .ak-icon-tiny.ak-tx-range, .ak-icon-tiny.ak-air, .ak-icon-tiny.ak-tx-agility, .ak-icon-tiny.ak-tx-initiative, .ak-icon-tiny.ak-action, .ak-icon-tiny.ak-tx-actionpoints, .ak-icon-tiny.ak-tx-prospecting, .ak-icon-tiny.ak-life, .ak-icon-tiny.ak-tx-vitality, .ak-icon-tiny.ak-tx-lifepoints, .ak-icon-tiny.ak-tx-wisdom, .ak-icon-tiny.ak-fire, .ak-icon-tiny.ak-tx-intelligence, .ak-icon-tiny.ak-earth, .ak-icon-tiny.ak-tx-strength, .ak-icon-tiny.ak-tx-escape, .ak-icon-tiny.ak-tx-invocation, .ak-icon-tiny.ak-tx-tackle, .ak-icon-tiny.ak-resist, .ak-icon-tiny.ak-boost, .ak-icon-tiny.ak-tx-summonablecreaturesboost, .ak-icon-tiny.ak-tx-criticalhit, .ak-icon-tiny.ak-armor, .ak-icon-tiny.ak-accessories, .ak-icon-tiny.ak-personalization, .ak-icon-tiny.ak-rarity-0, .ak-icon-tiny.ak-rarity-1, .ak-icon-tiny.ak-rarity-2, .ak-icon-tiny.ak-rarity-3, .ak-icon-tiny.ak-rarity-4, .ak-icon-tiny.ak-rarity-6, .ak-icon-tiny.ak-rarity-5, .ak-icon-tiny.ak-rarity-7, .ak-icon-tiny.ak-rarity-triangle-0, .ak-icon-tiny.ak-rarity-triangle-1, .ak-icon-tiny.ak-rarity-triangle-2, .ak-icon-tiny.ak-rarity-triangle-3, .ak-icon-tiny.ak-rarity-triangle-4, .ak-icon-tiny.ak-rarity-triangle-5, .ak-icon-tiny.ak-rarity-triangle-6, .ak-icon-tiny.ak-rarity-triangle-7, .ak-icon-tiny.ak-companions, .ak-icon-tiny.ak-tree-tutorial {
+    background-image: url("/wakfu/ng/modules/icons/sprite_encyclopedia.png");
+    background-repeat: no-repeat
+}
+
+.ak-icon-big.ak-breeds, .ak-icon-big.ak-consumables, .ak-icon-big.ak-dungeons, .ak-icon-big.ak-equipments, .ak-icon-big.ak-jobs, .ak-icon-big.ak-monsters, .ak-icon-big.ak-pets, .ak-icon-big.ak-quests, .ak-icon-big.ak-ressources, .ak-icon-big.ak-rides, .ak-icon-big.ak-weapons, .ak-icon-big.ak-arms, .ak-icon-big.ak-plus-dofus, .ak-icon-big.ak-plus_dofus, .ak-icon-big.ak-mmo, .ak-icon-big.ak-egg, .ak-icon-big.ak-encyclopedia, .ak-icon-big.ak-sets, .ak-icon-big.ak-spells, .ak-icon-big.ak-universe, .ak-icon-big.ak-tutorials, .ak-icon-big.ak-various, .ak-icon-big.ak-armor, .ak-icon-big.ak-accessories, .ak-icon-big.ak-personalization, .ak-icon-big.ak-companions, .ak-icon-big.ak-tree-tutorial, .ak-icon-big.ak-wakfu {
+    background-size: 126px auto
+}
+
+.ak-icon-big.ak-breeds {
+    background-position: 0 -10px
+}
+
+.ak-icon-big.ak-consumables {
+    background-position: 0 -95px
+}
+
+.ak-icon-big.ak-dungeons {
+    background-position: 0 -180px
+}
+
+.ak-icon-big.ak-equipments {
+    background-position: 0 -265px
+}
+
+.ak-icon-big.ak-jobs {
+    background-position: 0 -348px
+}
+
+.ak-icon-big.ak-monsters {
+    background-position: 0 -435px
+}
+
+.ak-icon-big.ak-pets {
+    background-position: 0 -520px
+}
+
+.ak-icon-big.ak-quests {
+    background-position: 0 -605px
+}
+
+.ak-icon-big.ak-ressources {
+    background-position: 0 -690px
+}
+
+.ak-icon-big.ak-rides {
+    background-position: 0 -775px
+}
+
+.ak-icon-big.ak-weapons, .ak-icon-big.ak-plus-dofus, .ak-icon-big.ak-arms {
+    background-position: 0 -860px
+}
+
+.ak-icon-big.ak-egg {
+    background-position: 0 -945px
+}
+
+.ak-icon-big.ak-encyclopedia {
+    background-position: 0 -1030px
+}
+
+.ak-icon-big.ak-sets {
+    background-position: 0 -1115px
+}
+
+.ak-icon-big.ak-spells {
+    background-position: 0 -1197px
+}
+
+.ak-icon-big.ak-universe {
+    background-position: 0 -1285px
+}
+
+.ak-icon-big.ak-tutorials {
+    background-position: 0 -1364px
+}
+
+.ak-icon-big.ak-various {
+    background-position: 0 -1820px
+}
+
+.ak-icon-big.ak-armor {
+    background-position: 0 -1546px
+}
+
+.ak-icon-big.ak-accessories {
+    background-position: 0 -1641px
+}
+
+.ak-icon-big.ak-personalization {
+    background-position: 0 -1729px
+}
+
+.ak-icon-big.ak-companions {
+    background-position: -1px -1905px
+}
+
+.ak-icon-big.ak-tree-tutorial {
+    background-position: 0 -1969px
+}
+
+.ak-icon-med.ak-breeds, .ak-icon-med.ak-consumables, .ak-icon-med.ak-dungeons, .ak-icon-med.ak-equipments, .ak-icon-med.ak-jobs, .ak-icon-med.ak-monsters, .ak-icon-med.ak-pets, .ak-icon-med.ak-quests, .ak-icon-med.ak-ressources, .ak-icon-med.ak-rides, .ak-icon-med.ak-weapons, .ak-icon-med.ak-arms, .ak-icon-med.ak-plus-dofus, .ak-icon-med.ak-plus_dofus, .ak-icon-med.ak-mmo, .ak-icon-med.ak-egg, .ak-icon-med.ak-encyclopedia, .ak-icon-med.ak-sets, .ak-icon-med.ak-spells, .ak-icon-med.ak-universe, .ak-icon-med.ak-tutorials, .ak-icon-med.ak-armor, .ak-icon-med.ak-various, .ak-icon-med.ak-accessories, .ak-icon-med.ak-personalization, .ak-icon-med.ak-companions, .ak-icon-med.ak-tree-tutorial {
+    background-size: 89px auto
+}
+
+.ak-icon-med.ak-breeds {
+    background-position: 0 -5px
+}
+
+.ak-icon-med.ak-consumables {
+    background-position: 0 -65px
+}
+
+.ak-icon-med.ak-dungeons {
+    background-position: 0 -126px
+}
+
+.ak-icon-med.ak-equipments {
+    background-position: 0 -187px
+}
+
+.ak-icon-med.ak-jobs {
+    background-position: 0 -242px
+}
+
+.ak-icon-med.ak-monsters {
+    background-position: 0 -306px
+}
+
+.ak-icon-med.ak-pets {
+    background-position: 0 -366px
+}
+
+.ak-icon-med.ak-quests {
+    background-position: 0 -432px
+}
+
+.ak-icon-med.ak-ressources {
+    background-position: 0 -486px
+}
+
+.ak-icon-med.ak-rides {
+    background-position: 0 -546px
+}
+
+.ak-icon-med.ak-weapons, .ak-icon-med.ak-mmo, .ak-icon-med.ak-arms {
+    background-position: 0 -605px
+}
+
+.ak-icon-med.ak-egg {
+    background-position: 0 -669px
+}
+
+.ak-icon-med.ak-encyclopedia {
+    background-position: 0 -725px
+}
+
+.ak-icon-med.ak-sets {
+    background-position: 0 -787px
+}
+
+.ak-icon-med.ak-spells {
+    background-position: 0 -842px
+}
+
+.ak-icon-med.ak-universe {
+    background-position: 0 -906px
+}
+
+.ak-icon-med.ak-tutorials {
+    background-position: 0 -967px
+}
+
+.ak-icon-med.ak-plus-dofus, .ak-icon-med.ak-plus_dofus {
+    background-position: 0 -1026px
+}
+
+.ak-icon-med.ak-armor {
+    background-position: 0 -1088px
+}
+
+.ak-icon-med.ak-various {
+    background-position: 0 -1283px
+}
+
+.ak-icon-med.ak-accessories {
+    background-position: 0 -1157px
+}
+
+.ak-icon-med.ak-personalization {
+    background-position: 0 -1219px
+}
+
+.ak-icon-med.ak-companions {
+    background-position: 0 -1340px
+}
+
+.ak-icon-med.ak-tree-tutorial {
+    background-position: -1px -1394px
+}
+
+.ak-icon-small.ak-neutral, .ak-icon-small.ak-wakfu, .ak-icon-small.ak-tx-neutral, .ak-icon-small.ak-move, .ak-icon-small.ak-tx-movementpoints, .ak-icon-small.ak-water, .ak-icon-small.ak-tx-chance, .ak-icon-small.ak-range, .ak-icon-small.ak-tx-range, .ak-icon-small.ak-air, .ak-icon-small.ak-tx-agility, .ak-icon-small.ak-tx-initiative, .ak-icon-small.ak-action, .ak-icon-small.ak-tx-actionpoints, .ak-icon-small.ak-tx-prospecting, .ak-icon-small.ak-life, .ak-icon-small.ak-tx-vitality, .ak-icon-small.ak-tx-lifepoints, .ak-icon-small.ak-tx-wisdom, .ak-icon-small.ak-fire, .ak-icon-small.ak-tx-intelligence, .ak-icon-small.ak-earth, .ak-icon-small.ak-tx-strength, .ak-icon-small.ak-tx-escape, .ak-icon-small.ak-tx-invocation, .ak-icon-small.ak-tx-tackle, .ak-icon-small.ak-tx-dodge, .ak-icon-small.ak-boostcritical, .ak-icon-small.ak-boost, .ak-icon-small.ak-resist, .ak-icon-small.ak-tx-summonablecreaturesboost, .ak-icon-small.ak-tx-criticalhit, .ak-icon-small.ak-armor, .ak-icon-small.ak-accessories, .ak-icon-small.ak-personalization, .ak-icon-small.ak-rarity-0, .ak-icon-small.ak-rarity-1, .ak-icon-small.ak-rarity-2, .ak-icon-small.ak-rarity-3, .ak-icon-small.ak-rarity-4, .ak-icon-small.ak-rarity-5, .ak-icon-small.ak-rarity-6, .ak-icon-small.ak-rarity-7, .ak-icon-small.ak-rarity-triangle-0, .ak-icon-small.ak-rarity-triangle-1, .ak-icon-small.ak-rarity-triangle-2, .ak-icon-small.ak-rarity-triangle-3, .ak-icon-small.ak-rarity-triangle-4, .ak-icon-small.ak-rarity-triangle-5, .ak-icon-small.ak-rarity-triangle-6, .ak-icon-small.ak-rarity-triangle-7, .ak-icon-small.ak-companions {
+    background-size: auto auto
+}
+
+.ak-icon-small.ak-neutral, .ak-icon-small.ak-tx-neutral {
+    background-position: -97px -15px
+}
+
+.ak-icon-small.ak-move, .ak-icon-small.ak-tx-movementpoints {
+    background-position: -97px -52px
+}
+
+.ak-icon-small.ak-water, .ak-icon-small.ak-tx-chance {
+    background-position: -97px -89px
+}
+
+.ak-icon-small.ak-range, .ak-icon-small.ak-tx-range {
+    background-position: -97px -128px
+}
+
+.ak-icon-small.ak-air, .ak-icon-small.ak-tx-agility {
+    background-position: -97px -167px
+}
+
+.ak-icon-small.ak-tx-initiative {
+    background-position: -97px -205px
+}
+
+.ak-icon-small.ak-action, .ak-icon-small.ak-tx-actionpoints {
+    background-position: -97px -243px
+}
+
+.ak-icon-small.ak-tx-prospecting {
+    background-position: -97px -279px
+}
+
+.ak-icon-small.ak-life, .ak-icon-small.ak-tx-vitality, .ak-icon-small.ak-tx-lifepoints {
+    background-position: -97px -319px
+}
+
+.ak-icon-small.ak-tx-wisdom {
+    background-position: -97px -358px
+}
+
+.ak-icon-small.ak-fire, .ak-icon-small.ak-tx-intelligence {
+    background-position: -97px -394px
+}
+
+.ak-icon-small.ak-earth, .ak-icon-small.ak-tx-strength {
+    background-position: -97px -432px
+}
+
+.ak-icon-small.ak-tx-escape {
+    background-position: -97px -468px
+}
+
+.ak-icon-small.ak-tx-invocation, .ak-icon-small.ak-tx-summonablecreaturesboost {
+    background-position: -97px -507px
+}
+
+.ak-icon-small.ak-tx-tackle {
+    background-position: -97px -545px
+}
+
+.ak-icon-small.ak-tx-criticalhit {
+    background-position: -97px -588px
+}
+
+.ak-icon-small.ak-armor {
+    background-position: -97px -588px
+}
+
+.ak-icon-small.ak-accessories {
+    background-position: -97px -588px
+}
+
+.ak-icon-small.ak-personalization {
+    background-position: -97px -588px
+}
+
+.ak-icon-small.ak-rarity-0 {
+    background-position: -97px -642px
+}
+
+.ak-icon-small.ak-rarity-1 {
+    background-position: -97px -674px
+}
+
+.ak-icon-small.ak-rarity-2 {
+    background-position: -97px -706px
+}
+
+.ak-icon-small.ak-rarity-3 {
+    background-position: -97px -738px
+}
+
+.ak-icon-small.ak-rarity-4 {
+    background-position: -97px -770px
+}
+
+.ak-icon-small.ak-rarity-5 {
+    background-position: -97px -802px
+}
+
+.ak-icon-small.ak-rarity-6 {
+    background-position: -97px -1182px
+}
+
+.ak-icon-small.ak-rarity-7 {
+    background-position: -97px -1120px
+}
+
+.ak-icon-small.ak-rarity-triangle-0 {
+    background-position: -97px -837px
+}
+
+.ak-icon-small.ak-rarity-triangle-1 {
+    background-position: -97px -870px
+}
+
+.ak-icon-small.ak-rarity-triangle-2 {
+    background-position: -97px -907px
+}
+
+.ak-icon-small.ak-rarity-triangle-3 {
+    background-position: -97px -940px
+}
+
+.ak-icon-small.ak-rarity-triangle-4 {
+    background-position: -97px -973px
+}
+
+.ak-icon-small.ak-rarity-triangle-5 {
+    background-position: -97px -1007px
+}
+
+.ak-icon-small.ak-rarity-triangle-6 {
+    background-position: -97px -1209px
+}
+
+.ak-icon-small.ak-tx-dodge {
+    background-position: -97px -122px
+}
+
+.ak-icon-small.ak-wakfu {
+    background-position: -97px -468px
+}
+
+.ak-icon-small.ak-boostcritical {
+    background-position: -96px -354px
+}
+
+.ak-icon-small.ak-boost {
+    background-position: -96px -1092px
+}
+
+.ak-icon-small.ak-resist {
+    background-position: -96px -1049px
+}
+
+.ak-icon-small.ak-companions {
+    background-position: -96px -1049px
+}
+
+.ak-icon-tiny.ak-weapons, .ak-icon-tiny.ak-plus-dofus, .ak-icon-tiny.ak-mmo, .ak-icon-tiny.ak-egg {
+    background-size: 64px auto
+}
+
+.ak-icon-tiny.ak-egg {
+    background-position: 0 -478px
+}
+
+.ak-icon-tiny.ak-weapons, .ak-icon-tiny.ak-plus-dofus, .ak-icon-tiny.ak-mmo {
+    background-position: 0 -436px
+}
+
+.ak-icon-big.ak-polls, .ak-icon-big.ak-alliance, .ak-icon-big.ak-alliance-pages, .ak-icon-big.ak-animation, .ak-icon-big.ak-builds, .ak-icon-big.ak-calendar, .ak-icon-big.ak-character, .ak-icon-big.ak-character-pages, .ak-icon-big.ak-devblog, .ak-icon-big.ak-directories, .ak-icon-big.ak-edition, .ak-icon-big.ak-editions-dofus, .ak-icon-big.ak-forum, .ak-icon-big.ak-guild, .ak-icon-big.ak-guild-pages, .ak-icon-big.ak-heroic, .ak-icon-big.ak-illustration, .ak-icon-big.ak-krosmaster, .ak-icon-big.ak-ladder-alliance, .ak-icon-big.ak-ladder-general, .ak-icon-big.ak-ladder-kolizeum, .ak-icon-big.ak-ladder-krosmaster, .ak-icon-big.ak-ladder-success, .ak-icon-big.ak-news, .ak-icon-big.ak-screenshot, .ak-icon-big.ak-server-offline, .ak-icon-big.ak-server-online, .ak-icon-big.ak-servers, .ak-icon-big.ak-sponsorship, .ak-icon-big.ak-success, .ak-icon-big.ak-support, .ak-icon-big.ak-videos, .ak-icon-big.ak-married, .ak-icon-big.ak-job-pages, .ak-icon-big.ak-rules, .ak-icon-big.ak-patchnote, .ak-icon-big.ak-filter, .ak-icon-big.ak-politics, .ak-icon-big.ak-wakfu, .ak-icon-med.ak-polls, .ak-icon-med.ak-alliance, .ak-icon-med.ak-alliance-pages, .ak-icon-med.ak-animation, .ak-icon-med.ak-builds, .ak-icon-med.ak-calendar, .ak-icon-med.ak-character, .ak-icon-med.ak-character-pages, .ak-icon-med.ak-devblog, .ak-icon-med.ak-directories, .ak-icon-med.ak-edition, .ak-icon-med.ak-editions-dofus, .ak-icon-med.ak-forum, .ak-icon-med.ak-guild, .ak-icon-med.ak-guild-pages, .ak-icon-med.ak-heroic, .ak-icon-med.ak-illustration, .ak-icon-med.ak-krosmaster, .ak-icon-med.ak-ladder-alliance, .ak-icon-med.ak-ladder-general, .ak-icon-med.ak-ladder-kolizeum, .ak-icon-med.ak-ladder-krosmaster, .ak-icon-med.ak-ladder-success, .ak-icon-med.ak-news, .ak-icon-med.ak-screenshot, .ak-icon-med.ak-server-offline, .ak-icon-med.ak-server-online, .ak-icon-med.ak-servers, .ak-icon-med.ak-sponsorship, .ak-icon-med.ak-success, .ak-icon-med.ak-support, .ak-icon-med.ak-videos, .ak-icon-med.ak-married, .ak-icon-med.ak-job-pages, .ak-icon-med.ak-rules, .ak-icon-med.ak-patchnote, .ak-icon-med.ak-filter, .ak-icon-med.ak-politics, .ak-icon-med.ak-wakfu, .ak-icon-tiny.ak-polls, .ak-icon-tiny.ak-alliance, .ak-icon-tiny.ak-alliance-pages, .ak-icon-tiny.ak-animation, .ak-icon-tiny.ak-builds, .ak-icon-tiny.ak-calendar, .ak-icon-tiny.ak-character, .ak-icon-tiny.ak-character-pages, .ak-icon-tiny.ak-devblog, .ak-icon-tiny.ak-directories, .ak-icon-tiny.ak-edition, .ak-icon-tiny.ak-editions-dofus, .ak-icon-tiny.ak-forum, .ak-icon-tiny.ak-guild, .ak-icon-tiny.ak-guild-pages, .ak-icon-tiny.ak-heroic, .ak-icon-tiny.ak-illustration, .ak-icon-tiny.ak-krosmaster, .ak-icon-tiny.ak-ladder-alliance, .ak-icon-tiny.ak-ladder-general, .ak-icon-tiny.ak-ladder-kolizeum, .ak-icon-tiny.ak-ladder-krosmaster, .ak-icon-tiny.ak-ladder-success, .ak-icon-tiny.ak-news, .ak-icon-tiny.ak-screenshot, .ak-icon-tiny.ak-server-offline, .ak-icon-tiny.ak-server-online, .ak-icon-tiny.ak-servers, .ak-icon-tiny.ak-sponsorship, .ak-icon-tiny.ak-success, .ak-icon-tiny.ak-support, .ak-icon-tiny.ak-videos, .ak-icon-tiny.ak-married, .ak-icon-tiny.ak-job-pages, .ak-icon-tiny.ak-rules, .ak-icon-tiny.ak-patchnote, .ak-icon-tiny.ak-filter, .ak-icon-tiny.ak-politics, .ak-icon-tiny.ak-wakfu {
+    background-image: url("/wakfu/ng/modules/icons/sprite_community.png");
+    background-repeat: no-repeat
+}
+
+.ak-icon-big.ak-polls, .ak-icon-big.ak-alliance, .ak-icon-big.ak-animation, .ak-icon-big.ak-builds, .ak-icon-big.ak-calendar, .ak-icon-big.ak-character, .ak-icon-big.ak-devblog, .ak-icon-big.ak-directories, .ak-icon-big.ak-edition, .ak-icon-big.ak-editions-dofus, .ak-icon-big.ak-forum, .ak-icon-big.ak-guild, .ak-icon-big.ak-guild-pages, .ak-icon-big.ak-heroic, .ak-icon-big.ak-illustration, .ak-icon-big.ak-krosmaster, .ak-icon-big.ak-ladder-alliance, .ak-icon-big.ak-ladder-general, .ak-icon-big.ak-ladder-kolizeum, .ak-icon-big.ak-ladder-krosmaster, .ak-icon-big.ak-ladder-success, .ak-icon-big.ak-news, .ak-icon-big.ak-screenshot, .ak-icon-big.ak-server-offline, .ak-icon-big.ak-server-online, .ak-icon-big.ak-servers, .ak-icon-big.ak-sponsorship, .ak-icon-big.ak-success, .ak-icon-big.ak-support, .ak-icon-big.ak-videos, .ak-icon-big.ak-married, .ak-icon-big.ak-rules, .ak-icon-big.ak-patchnote, .ak-icon-big.ak-filter, .ak-icon-big.ak-politics, .ak-icon-big.ak-wakfu {
+    background-size: 65px auto
+}
+
+.ak-icon-big.ak-polls {
+    background-position: 0 -10px
+}
+
+.ak-icon-big.ak-alliance {
+    background-position: 0 -95px
+}
+
+.ak-icon-big.ak-animation {
+    background-position: 0 -180px
+}
+
+.ak-icon-big.ak-builds {
+    background-position: 0 -265px
+}
+
+.ak-icon-big.ak-calendar {
+    background-position: 0 -350px
+}
+
+.ak-icon-big.ak-character {
+    background-position: 0 -435px
+}
+
+.ak-icon-big.ak-devblog {
+    background-position: 0 -520px
+}
+
+.ak-icon-big.ak-directories {
+    background-position: 0 -605px
+}
+
+.ak-icon-big.ak-editions-dofus, .ak-icon-big.ak-edition {
+    background-position: 0 -690px
+}
+
+.ak-icon-big.ak-forum {
+    background-position: 0 -775px
+}
+
+.ak-icon-big.ak-guild {
+    background-position: 0 -860px
+}
+
+.ak-icon-big.ak-heroic {
+    background-position: 0 -945px
+}
+
+.ak-icon-big.ak-illustration {
+    background-position: 0 -1030px
+}
+
+.ak-icon-big.ak-krosmaster {
+    background-position: 0 -1115px
+}
+
+.ak-icon-big.ak-ladder-alliance {
+    background-position: 0 -1200px
+}
+
+.ak-icon-big.ak-ladder-general {
+    background-position: 0 -1285px
+}
+
+.ak-icon-big.ak-ladder-kolizeum {
+    background-position: 0 -1370px
+}
+
+.ak-icon-big.ak-ladder-krosmaster {
+    background-position: 0 -1455px
+}
+
+.ak-icon-big.ak-ladder-success {
+    background-position: 0 -1540px
+}
+
+.ak-icon-big.ak-news {
+    background-position: 0 -1625px
+}
+
+.ak-icon-big.ak-screenshot {
+    background-position: 0 -1710px
+}
+
+.ak-icon-big.ak-server-offline {
+    background-position: 0 -1795px
+}
+
+.ak-icon-big.ak-server-online {
+    background-position: 0 -1880px
+}
+
+.ak-icon-big.ak-servers {
+    background-position: 0 -1965px
+}
+
+.ak-icon-big.ak-sponsorship {
+    background-position: 0 -2050px
+}
+
+.ak-icon-big.ak-success {
+    background-position: 0 -2135px
+}
+
+.ak-icon-big.ak-support {
+    background-position: 0 -2220px
+}
+
+.ak-icon-big.ak-videos {
+    background-position: 0 -2305px
+}
+
+.ak-icon-big.ak-married {
+    background-position: 0 -2390px
+}
+
+.ak-icon-big.ak-job-pages {
+    background-position: 0 -2477px
+}
+
+.ak-icon-big.ak-rules {
+    background-position: 0 -2610px
+}
+
+.ak-icon-big.ak-filter {
+    background-position: 0 -2783px
+}
+
+.ak-icon-big.ak-patchnote {
+    background-position: 0 -2936px
+}
+
+.ak-icon-big.ak-politics {
+    background-position: 0 -3017px
+}
+
+.ak-icon-big.ak-wakfu {
+    background-position: 0 -2695px
+}
+
+.ak-icon-med.ak-polls, .ak-icon-med.ak-alliance, .ak-icon-med.ak-animation, .ak-icon-med.ak-builds, .ak-icon-med.ak-calendar, .ak-icon-med.ak-character, .ak-icon-med.ak-devblog, .ak-icon-med.ak-directories, .ak-icon-med.ak-editions-dofus, .ak-icon-med.ak-edition, .ak-icon-med.ak-forum, .ak-icon-med.ak-guild, .ak-icon-med.ak-heroic, .ak-icon-med.ak-illustration, .ak-icon-med.ak-krosmaster, .ak-icon-med.ak-ladder-alliance, .ak-icon-med.ak-ladder-general, .ak-icon-med.ak-ladder-kolizeum, .ak-icon-med.ak-ladder-krosmaster, .ak-icon-med.ak-ladder-success, .ak-icon-med.ak-news, .ak-icon-med.ak-screenshot, .ak-icon-med.ak-server-offline, .ak-icon-med.ak-server-online, .ak-icon-med.ak-servers, .ak-icon-med.ak-sponsorship, .ak-icon-med.ak-success, .ak-icon-med.ak-support, .ak-icon-med.ak-videos, .ak-icon-med.ak-married, .ak-icon-med.ak-rules, .ak-icon-med.ak-patchnote, .ak-icon-med.ak-filter, .ak-icon-med.ak-politics {
+    background-size: 46px auto
+}
+
+.ak-icon-med.ak-polls {
+    background-position: 0 -5px
+}
+
+.ak-icon-med.ak-alliance-pages, .ak-icon-med.ak-alliance {
+    background-position: 0 -65px
+}
+
+.ak-icon-med.ak-animation {
+    background-position: 0 -126px
+}
+
+.ak-icon-med.ak-builds {
+    background-position: 0 -187px
+}
+
+.ak-icon-med.ak-calendar {
+    background-position: 0 -245px
+}
+
+.ak-icon-med.ak-character, .ak-icon-med.ak-character-pages {
+    background-position: 0 -306px
+}
+
+.ak-icon-med.ak-devblog {
+    background-position: 0 -365px
+}
+
+.ak-icon-med.ak-directories {
+    background-position: 0 -426px
+}
+
+.ak-icon-med.ak-editions-dofus, .ak-icon-med.ak-edition {
+    background-position: 0 -486px
+}
+
+.ak-icon-med.ak-forum {
+    background-position: 0 -546px
+}
+
+.ak-icon-med.ak-guild, .ak-icon-med.ak-guild-pages {
+    background-position: 0 -605px
+}
+
+.ak-icon-med.ak-heroic {
+    background-position: 0 -666px
+}
+
+.ak-icon-med.ak-illustration {
+    background-position: 0 -725px
+}
+
+.ak-icon-med.ak-krosmaster {
+    background-position: 0 -788px
+}
+
+.ak-icon-med.ak-ladder-alliance {
+    background-position: 0 -845px
+}
+
+.ak-icon-med.ak-ladder-general {
+    background-position: 0 -906px
+}
+
+.ak-icon-med.ak-ladder-kolizeum {
+    background-position: 0 -966px
+}
+
+.ak-icon-med.ak-ladder-krosmaster {
+    background-position: 0 -1025px
+}
+
+.ak-icon-med.ak-ladder-success {
+    background-position: 0 -1086px
+}
+
+.ak-icon-med.ak-news {
+    background-position: 0 -1146px
+}
+
+.ak-icon-med.ak-screenshot {
+    background-position: 0 -1205px
+}
+
+.ak-icon-med.ak-server-offline {
+    background-position: 0 -1267px
+}
+
+.ak-icon-med.ak-server-online {
+    background-position: 0 -1328px
+}
+
+.ak-icon-med.ak-servers {
+    background-position: 0 -1386px
+}
+
+.ak-icon-med.ak-sponsorship {
+    background-position: 0 -1445px
+}
+
+.ak-icon-med.ak-success {
+    background-position: 0 -1509px
+}
+
+.ak-icon-med.ak-support {
+    background-position: 0 -1564px
+}
+
+.ak-icon-med.ak-videos {
+    background-position: 0 -1625px
+}
+
+.ak-icon-med.ak-married {
+    background-position: 0 -1692px
+}
+
+.ak-icon-med.ak-job-pages {
+    background-position: 0 -1750px
+}
+
+.ak-icon-med.ak-rules {
+    background-position: 0 -1846px
+}
+
+.ak-icon-med.ak-filter {
+    background-position: 0 -1963px
+}
+
+.ak-icon-med.ak-patchnote {
+    background-position: 0 -2074px
+}
+
+.ak-icon-med.ak-politics {
+    background-position: 0 -2074px
+}
+
+.ak-icon-tiny.ak-krosmaster, .ak-icon-tiny.ak-editions-dofus, .ak-icon-tiny.ak-edition, .ak-icon-tiny.ak-animation {
+    background-size: 34px auto
+}
+
+.ak-icon-tiny.ak-krosmaster {
+    background-position: 0 -583px
+}
+
+.ak-icon-tiny.ak-editions-dofus, .ak-icon-tiny.ak-edition {
+    background-position: 0 -360px
+}
+
+.ak-icon-tiny.ak-animation {
+    background-position: 0 -94px
+}
+
+@media all and (min-width: 768px) {
+    .ak-navbar-fixed .navbar .navbar-nav.nav > li.ak-menu-brand .navbar-brand {
+        width: 73px;
+        background-size: 80%
+    }
+}
+
+.ak-icon-big {
+    display: inline-block;
+    width: 65px;
+    height: 65px
+}
+
+.ak-icon-med {
+    display: inline-block;
+    width: 48px;
+    height: 48px
+}
+
+.ak-icon-tiny {
+    display: inline-block;
+    width: 34px;
+    height: 34px
+}
+
+.ak-icon-small {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    white-space: nowrap;
+    vertical-align: middle;
+    line-height: 22px;
+    line-height: 2.2rem
+}
+
+.ak-icon-big.ak-filter, .ak-icon-big.ak-search, .ak-icon-med.ak-filter, .ak-icon-med.ak-search {
+    background-image: url("/wakfu/ng/modules/icons/sprite.png");
+    background-repeat: no-repeat
+}
+
+.ak-icon-big {
+    background-size: 65px auto
+}
+
+    .ak-icon-big.ak-filter {
+        background-position: 0 -10px
+    }
+
+    .ak-icon-big.ak-search {
+        background-position: 0 -103px
+    }
+
+.ak-icon-med {
+    background-size: 46px auto
+}
+
+    .ak-icon-med.ak-filter {
+        background-position: 0 -7px
+    }
+
+.ak-video {
+    height: 0;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    position: relative
+}
+
+    .ak-video iframe {
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%
+    }
+
+body.ak-light-skin nav, body.ak-light-skin .ak-nav-characters {
+    display: none
+}
+
+body.ak-light-skin .ak-navbar-fixed nav {
+    display: block
+}
+
+body.ak-light-skin .ak-navbar-fixed .navbar-nav {
+    display: none
+}
+
+body.ak-light-skin h1, body.ak-light-skin .ak-footer-content .ak-block1 {
+    display: none
+}
+
+body.ak-light-skin .main > .ak-container {
+    overflow: hidden;
+    padding-bottom: 12px;
+    padding-bottom: 1.2rem;
+    background: #fff
+}
+
+.ak-picto-help {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-position: -116px 2px;
+    background-repeat: no-repeat;
+    cursor: help
+}
+
+.ak-main-page aside .ak-panel .ak-panel-title-icon, .ak-light-skin .ak-main-container aside .ak-panel .ak-panel-title-icon {
+    left: 1px
+}
+
+.ak-emblem, .ak-entitylook {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.ak-icon-big.ak-breeds, .ak-icon-big.ak-consumables, .ak-icon-big.ak-dungeons, .ak-icon-big.ak-equipments, .ak-icon-big.ak-jobs, .ak-icon-big.ak-monsters, .ak-icon-big.ak-pets, .ak-icon-big.ak-quests, .ak-icon-big.ak-ressources, .ak-icon-big.ak-rides, .ak-icon-big.ak-weapons, .ak-icon-big.ak-arms, .ak-icon-big.ak-plus-dofus, .ak-icon-big.ak-plus_dofus, .ak-icon-big.ak-mmo, .ak-icon-big.ak-egg, .ak-icon-big.ak-encyclopedia, .ak-icon-big.ak-sets, .ak-icon-big.ak-spells, .ak-icon-big.ak-universe, .ak-icon-big.ak-tutorials, .ak-icon-big.ak-various, .ak-icon-big.ak-neutral, .ak-icon-big.ak-tx-neutral, .ak-icon-big.ak-move, .ak-icon-big.ak-tx-movementpoints, .ak-icon-big.ak-water, .ak-icon-big.ak-tx-chance, .ak-icon-big.ak-tx-dodge, .ak-icon-big.ak-boostcritical, .ak-icon-big.ak-range, .ak-icon-big.ak-tx-range, .ak-icon-big.ak-air, .ak-icon-big.ak-tx-agility, .ak-icon-big.ak-tx-initiative, .ak-icon-big.ak-action, .ak-icon-big.ak-tx-actionpoints, .ak-icon-big.ak-tx-prospecting, .ak-icon-big.ak-life, .ak-icon-big.ak-tx-vitality, .ak-icon-big.ak-tx-lifepoints, .ak-icon-big.ak-tx-wisdom, .ak-icon-big.ak-fire, .ak-icon-big.ak-tx-intelligence, .ak-icon-big.ak-earth, .ak-icon-big.ak-tx-strength, .ak-icon-big.ak-tx-escape, .ak-icon-big.ak-tx-invocation, .ak-icon-big.ak-tx-tackle, .ak-icon-big.ak-resist, .ak-icon-big.ak-boost, .ak-icon-big.ak-tx-summonablecreaturesboost, .ak-icon-big.ak-tx-criticalhit, .ak-icon-big.ak-armor, .ak-icon-big.ak-accessories, .ak-icon-big.ak-personalization, .ak-icon-big.ak-rarity-0, .ak-icon-big.ak-rarity-1, .ak-icon-big.ak-rarity-2, .ak-icon-big.ak-rarity-3, .ak-icon-big.ak-rarity-4, .ak-icon-big.ak-rarity-6, .ak-icon-big.ak-rarity-5, .ak-icon-big.ak-rarity-7, .ak-icon-big.ak-rarity-triangle-0, .ak-icon-big.ak-rarity-triangle-1, .ak-icon-big.ak-rarity-triangle-2, .ak-icon-big.ak-rarity-triangle-3, .ak-icon-big.ak-rarity-triangle-4, .ak-icon-big.ak-rarity-triangle-5, .ak-icon-big.ak-rarity-triangle-6, .ak-icon-big.ak-rarity-triangle-7, .ak-icon-big.ak-companions, .ak-icon-big.ak-tree-tutorial, .ak-icon-med.ak-breeds, .ak-icon-med.ak-consumables, .ak-icon-med.ak-dungeons, .ak-icon-med.ak-equipments, .ak-icon-med.ak-jobs, .ak-icon-med.ak-monsters, .ak-icon-med.ak-pets, .ak-icon-med.ak-quests, .ak-icon-med.ak-ressources, .ak-icon-med.ak-rides, .ak-icon-med.ak-weapons, .ak-icon-med.ak-arms, .ak-icon-med.ak-plus-dofus, .ak-icon-med.ak-plus_dofus, .ak-icon-med.ak-mmo, .ak-icon-med.ak-egg, .ak-icon-med.ak-encyclopedia, .ak-icon-med.ak-sets, .ak-icon-med.ak-spells, .ak-icon-med.ak-universe, .ak-icon-med.ak-tutorials, .ak-icon-med.ak-various, .ak-icon-med.ak-neutral, .ak-icon-med.ak-tx-neutral, .ak-icon-med.ak-move, .ak-icon-med.ak-tx-movementpoints, .ak-icon-med.ak-water, .ak-icon-med.ak-tx-chance, .ak-icon-med.ak-tx-dodge, .ak-icon-med.ak-boostcritical, .ak-icon-med.ak-range, .ak-icon-med.ak-tx-range, .ak-icon-med.ak-air, .ak-icon-med.ak-tx-agility, .ak-icon-med.ak-tx-initiative, .ak-icon-med.ak-action, .ak-icon-med.ak-tx-actionpoints, .ak-icon-med.ak-tx-prospecting, .ak-icon-med.ak-life, .ak-icon-med.ak-tx-vitality, .ak-icon-med.ak-tx-lifepoints, .ak-icon-med.ak-tx-wisdom, .ak-icon-med.ak-fire, .ak-icon-med.ak-tx-intelligence, .ak-icon-med.ak-earth, .ak-icon-med.ak-tx-strength, .ak-icon-med.ak-tx-escape, .ak-icon-med.ak-tx-invocation, .ak-icon-med.ak-tx-tackle, .ak-icon-med.ak-resist, .ak-icon-med.ak-boost, .ak-icon-med.ak-tx-summonablecreaturesboost, .ak-icon-med.ak-tx-criticalhit, .ak-icon-med.ak-armor, .ak-icon-med.ak-accessories, .ak-icon-med.ak-personalization, .ak-icon-med.ak-rarity-0, .ak-icon-med.ak-rarity-1, .ak-icon-med.ak-rarity-2, .ak-icon-med.ak-rarity-3, .ak-icon-med.ak-rarity-4, .ak-icon-med.ak-rarity-6, .ak-icon-med.ak-rarity-5, .ak-icon-med.ak-rarity-7, .ak-icon-med.ak-rarity-triangle-0, .ak-icon-med.ak-rarity-triangle-1, .ak-icon-med.ak-rarity-triangle-2, .ak-icon-med.ak-rarity-triangle-3, .ak-icon-med.ak-rarity-triangle-4, .ak-icon-med.ak-rarity-triangle-5, .ak-icon-med.ak-rarity-triangle-6, .ak-icon-med.ak-rarity-triangle-7, .ak-icon-med.ak-companions, .ak-icon-med.ak-tree-tutorial, .ak-icon-small.ak-breeds, .ak-icon-small.ak-consumables, .ak-icon-small.ak-dungeons, .ak-icon-small.ak-equipments, .ak-icon-small.ak-jobs, .ak-icon-small.ak-monsters, .ak-icon-small.ak-pets, .ak-icon-small.ak-quests, .ak-icon-small.ak-ressources, .ak-icon-small.ak-rides, .ak-icon-small.ak-weapons, .ak-icon-small.ak-arms, .ak-icon-small.ak-plus-dofus, .ak-icon-small.ak-plus_dofus, .ak-icon-small.ak-mmo, .ak-icon-small.ak-egg, .ak-icon-small.ak-encyclopedia, .ak-icon-small.ak-sets, .ak-icon-small.ak-spells, .ak-icon-small.ak-universe, .ak-icon-small.ak-tutorials, .ak-icon-small.ak-various, .ak-icon-small.ak-neutral, .ak-icon-small.ak-tx-neutral, .ak-icon-small.ak-move, .ak-icon-small.ak-tx-movementpoints, .ak-icon-small.ak-water, .ak-icon-small.ak-tx-chance, .ak-icon-small.ak-tx-dodge, .ak-icon-small.ak-boostcritical, .ak-icon-small.ak-range, .ak-icon-small.ak-tx-range, .ak-icon-small.ak-air, .ak-icon-small.ak-tx-agility, .ak-icon-small.ak-tx-initiative, .ak-icon-small.ak-action, .ak-icon-small.ak-tx-actionpoints, .ak-icon-small.ak-tx-prospecting, .ak-icon-small.ak-life, .ak-icon-small.ak-tx-vitality, .ak-icon-small.ak-tx-lifepoints, .ak-icon-small.ak-tx-wisdom, .ak-icon-small.ak-fire, .ak-icon-small.ak-tx-intelligence, .ak-icon-small.ak-earth, .ak-icon-small.ak-tx-strength, .ak-icon-small.ak-tx-escape, .ak-icon-small.ak-tx-invocation, .ak-icon-small.ak-tx-tackle, .ak-icon-small.ak-resist, .ak-icon-small.ak-boost, .ak-icon-small.ak-tx-summonablecreaturesboost, .ak-icon-small.ak-tx-criticalhit, .ak-icon-small.ak-armor, .ak-icon-small.ak-accessories, .ak-icon-small.ak-personalization, .ak-icon-small.ak-rarity-0, .ak-icon-small.ak-rarity-1, .ak-icon-small.ak-rarity-2, .ak-icon-small.ak-rarity-3, .ak-icon-small.ak-rarity-4, .ak-icon-small.ak-rarity-6, .ak-icon-small.ak-rarity-5, .ak-icon-small.ak-rarity-7, .ak-icon-small.ak-rarity-triangle-0, .ak-icon-small.ak-rarity-triangle-1, .ak-icon-small.ak-rarity-triangle-2, .ak-icon-small.ak-rarity-triangle-3, .ak-icon-small.ak-rarity-triangle-4, .ak-icon-small.ak-rarity-triangle-5, .ak-icon-small.ak-rarity-triangle-6, .ak-icon-small.ak-rarity-triangle-7, .ak-icon-small.ak-companions, .ak-icon-small.ak-tree-tutorial, .ak-icon-tiny.ak-breeds, .ak-icon-tiny.ak-consumables, .ak-icon-tiny.ak-dungeons, .ak-icon-tiny.ak-equipments, .ak-icon-tiny.ak-jobs, .ak-icon-tiny.ak-monsters, .ak-icon-tiny.ak-pets, .ak-icon-tiny.ak-quests, .ak-icon-tiny.ak-ressources, .ak-icon-tiny.ak-rides, .ak-icon-tiny.ak-weapons, .ak-icon-tiny.ak-arms, .ak-icon-tiny.ak-plus-dofus, .ak-icon-tiny.ak-plus_dofus, .ak-icon-tiny.ak-mmo, .ak-icon-tiny.ak-egg, .ak-icon-tiny.ak-encyclopedia, .ak-icon-tiny.ak-sets, .ak-icon-tiny.ak-spells, .ak-icon-tiny.ak-universe, .ak-icon-tiny.ak-tutorials, .ak-icon-tiny.ak-various, .ak-icon-tiny.ak-neutral, .ak-icon-tiny.ak-tx-neutral, .ak-icon-tiny.ak-move, .ak-icon-tiny.ak-tx-movementpoints, .ak-icon-tiny.ak-water, .ak-icon-tiny.ak-tx-chance, .ak-icon-tiny.ak-tx-dodge, .ak-icon-tiny.ak-boostcritical, .ak-icon-tiny.ak-range, .ak-icon-tiny.ak-tx-range, .ak-icon-tiny.ak-air, .ak-icon-tiny.ak-tx-agility, .ak-icon-tiny.ak-tx-initiative, .ak-icon-tiny.ak-action, .ak-icon-tiny.ak-tx-actionpoints, .ak-icon-tiny.ak-tx-prospecting, .ak-icon-tiny.ak-life, .ak-icon-tiny.ak-tx-vitality, .ak-icon-tiny.ak-tx-lifepoints, .ak-icon-tiny.ak-tx-wisdom, .ak-icon-tiny.ak-fire, .ak-icon-tiny.ak-tx-intelligence, .ak-icon-tiny.ak-earth, .ak-icon-tiny.ak-tx-strength, .ak-icon-tiny.ak-tx-escape, .ak-icon-tiny.ak-tx-invocation, .ak-icon-tiny.ak-tx-tackle, .ak-icon-tiny.ak-resist, .ak-icon-tiny.ak-boost, .ak-icon-tiny.ak-tx-summonablecreaturesboost, .ak-icon-tiny.ak-tx-criticalhit, .ak-icon-tiny.ak-armor, .ak-icon-tiny.ak-accessories, .ak-icon-tiny.ak-personalization, .ak-icon-tiny.ak-rarity-0, .ak-icon-tiny.ak-rarity-1, .ak-icon-tiny.ak-rarity-2, .ak-icon-tiny.ak-rarity-3, .ak-icon-tiny.ak-rarity-4, .ak-icon-tiny.ak-rarity-6, .ak-icon-tiny.ak-rarity-5, .ak-icon-tiny.ak-rarity-7, .ak-icon-tiny.ak-rarity-triangle-0, .ak-icon-tiny.ak-rarity-triangle-1, .ak-icon-tiny.ak-rarity-triangle-2, .ak-icon-tiny.ak-rarity-triangle-3, .ak-icon-tiny.ak-rarity-triangle-4, .ak-icon-tiny.ak-rarity-triangle-5, .ak-icon-tiny.ak-rarity-triangle-6, .ak-icon-tiny.ak-rarity-triangle-7, .ak-icon-tiny.ak-companions, .ak-icon-tiny.ak-tree-tutorial {
+    background-image: url("/wakfu/ng/modules/icons/sprite_encyclopedia.png");
+    background-repeat: no-repeat
+}
+
+.ak-icon-big.ak-breeds, .ak-icon-big.ak-consumables, .ak-icon-big.ak-dungeons, .ak-icon-big.ak-equipments, .ak-icon-big.ak-jobs, .ak-icon-big.ak-monsters, .ak-icon-big.ak-pets, .ak-icon-big.ak-quests, .ak-icon-big.ak-ressources, .ak-icon-big.ak-rides, .ak-icon-big.ak-weapons, .ak-icon-big.ak-arms, .ak-icon-big.ak-plus-dofus, .ak-icon-big.ak-plus_dofus, .ak-icon-big.ak-mmo, .ak-icon-big.ak-egg, .ak-icon-big.ak-encyclopedia, .ak-icon-big.ak-sets, .ak-icon-big.ak-spells, .ak-icon-big.ak-universe, .ak-icon-big.ak-tutorials, .ak-icon-big.ak-various, .ak-icon-big.ak-armor, .ak-icon-big.ak-accessories, .ak-icon-big.ak-personalization, .ak-icon-big.ak-companions, .ak-icon-big.ak-tree-tutorial, .ak-icon-big.ak-wakfu {
+    background-size: 126px auto
+}
+
+.ak-icon-big.ak-breeds {
+    background-position: 0 -10px
+}
+
+.ak-icon-big.ak-consumables {
+    background-position: 0 -95px
+}
+
+.ak-icon-big.ak-dungeons {
+    background-position: 0 -180px
+}
+
+.ak-icon-big.ak-equipments {
+    background-position: 0 -265px
+}
+
+.ak-icon-big.ak-jobs {
+    background-position: 0 -348px
+}
+
+.ak-icon-big.ak-monsters {
+    background-position: 0 -435px
+}
+
+.ak-icon-big.ak-pets {
+    background-position: 0 -520px
+}
+
+.ak-icon-big.ak-quests {
+    background-position: 0 -605px
+}
+
+.ak-icon-big.ak-ressources {
+    background-position: 0 -690px
+}
+
+.ak-icon-big.ak-rides {
+    background-position: 0 -775px
+}
+
+.ak-icon-big.ak-weapons, .ak-icon-big.ak-plus-dofus, .ak-icon-big.ak-arms {
+    background-position: 0 -860px
+}
+
+.ak-icon-big.ak-egg {
+    background-position: 0 -945px
+}
+
+.ak-icon-big.ak-encyclopedia {
+    background-position: 0 -1030px
+}
+
+.ak-icon-big.ak-sets {
+    background-position: 0 -1115px
+}
+
+.ak-icon-big.ak-spells {
+    background-position: 0 -1197px
+}
+
+.ak-icon-big.ak-universe {
+    background-position: 0 -1285px
+}
+
+.ak-icon-big.ak-tutorials {
+    background-position: 0 -1364px
+}
+
+.ak-icon-big.ak-various {
+    background-position: 0 -1820px
+}
+
+.ak-icon-big.ak-armor {
+    background-position: 0 -1546px
+}
+
+.ak-icon-big.ak-accessories {
+    background-position: 0 -1641px
+}
+
+.ak-icon-big.ak-personalization {
+    background-position: 0 -1729px
+}
+
+.ak-icon-big.ak-companions {
+    background-position: -1px -1905px
+}
+
+.ak-icon-big.ak-tree-tutorial {
+    background-position: 0 -1969px
+}
+
+.ak-icon-med.ak-breeds, .ak-icon-med.ak-consumables, .ak-icon-med.ak-dungeons, .ak-icon-med.ak-equipments, .ak-icon-med.ak-jobs, .ak-icon-med.ak-monsters, .ak-icon-med.ak-pets, .ak-icon-med.ak-quests, .ak-icon-med.ak-ressources, .ak-icon-med.ak-rides, .ak-icon-med.ak-weapons, .ak-icon-med.ak-arms, .ak-icon-med.ak-plus-dofus, .ak-icon-med.ak-plus_dofus, .ak-icon-med.ak-mmo, .ak-icon-med.ak-egg, .ak-icon-med.ak-encyclopedia, .ak-icon-med.ak-sets, .ak-icon-med.ak-spells, .ak-icon-med.ak-universe, .ak-icon-med.ak-tutorials, .ak-icon-med.ak-armor, .ak-icon-med.ak-various, .ak-icon-med.ak-accessories, .ak-icon-med.ak-personalization, .ak-icon-med.ak-companions, .ak-icon-med.ak-tree-tutorial {
+    background-size: 89px auto
+}
+
+.ak-icon-med.ak-breeds {
+    background-position: 0 -5px
+}
+
+.ak-icon-med.ak-consumables {
+    background-position: 0 -65px
+}
+
+.ak-icon-med.ak-dungeons {
+    background-position: 0 -126px
+}
+
+.ak-icon-med.ak-equipments {
+    background-position: 0 -187px
+}
+
+.ak-icon-med.ak-jobs {
+    background-position: 0 -242px
+}
+
+.ak-icon-med.ak-monsters {
+    background-position: 0 -306px
+}
+
+.ak-icon-med.ak-pets {
+    background-position: 0 -366px
+}
+
+.ak-icon-med.ak-quests {
+    background-position: 0 -432px
+}
+
+.ak-icon-med.ak-ressources {
+    background-position: 0 -486px
+}
+
+.ak-icon-med.ak-rides {
+    background-position: 0 -546px
+}
+
+.ak-icon-med.ak-weapons, .ak-icon-med.ak-mmo, .ak-icon-med.ak-arms {
+    background-position: 0 -605px
+}
+
+.ak-icon-med.ak-egg {
+    background-position: 0 -669px
+}
+
+.ak-icon-med.ak-encyclopedia {
+    background-position: 0 -725px
+}
+
+.ak-icon-med.ak-sets {
+    background-position: 0 -787px
+}
+
+.ak-icon-med.ak-spells {
+    background-position: 0 -842px
+}
+
+.ak-icon-med.ak-universe {
+    background-position: 0 -906px
+}
+
+.ak-icon-med.ak-tutorials {
+    background-position: 0 -967px
+}
+
+.ak-icon-med.ak-plus-dofus, .ak-icon-med.ak-plus_dofus {
+    background-position: 0 -1026px
+}
+
+.ak-icon-med.ak-armor {
+    background-position: 0 -1088px
+}
+
+.ak-icon-med.ak-various {
+    background-position: 0 -1283px
+}
+
+.ak-icon-med.ak-accessories {
+    background-position: 0 -1157px
+}
+
+.ak-icon-med.ak-personalization {
+    background-position: 0 -1219px
+}
+
+.ak-icon-med.ak-companions {
+    background-position: 0 -1340px
+}
+
+.ak-icon-med.ak-tree-tutorial {
+    background-position: -1px -1394px
+}
+
+.ak-icon-small.ak-neutral, .ak-icon-small.ak-wakfu, .ak-icon-small.ak-tx-neutral, .ak-icon-small.ak-move, .ak-icon-small.ak-tx-movementpoints, .ak-icon-small.ak-water, .ak-icon-small.ak-tx-chance, .ak-icon-small.ak-range, .ak-icon-small.ak-tx-range, .ak-icon-small.ak-air, .ak-icon-small.ak-tx-agility, .ak-icon-small.ak-tx-initiative, .ak-icon-small.ak-action, .ak-icon-small.ak-tx-actionpoints, .ak-icon-small.ak-tx-prospecting, .ak-icon-small.ak-life, .ak-icon-small.ak-tx-vitality, .ak-icon-small.ak-tx-lifepoints, .ak-icon-small.ak-tx-wisdom, .ak-icon-small.ak-fire, .ak-icon-small.ak-tx-intelligence, .ak-icon-small.ak-earth, .ak-icon-small.ak-tx-strength, .ak-icon-small.ak-tx-escape, .ak-icon-small.ak-tx-invocation, .ak-icon-small.ak-tx-tackle, .ak-icon-small.ak-tx-dodge, .ak-icon-small.ak-boostcritical, .ak-icon-small.ak-boost, .ak-icon-small.ak-resist, .ak-icon-small.ak-tx-summonablecreaturesboost, .ak-icon-small.ak-tx-criticalhit, .ak-icon-small.ak-armor, .ak-icon-small.ak-accessories, .ak-icon-small.ak-personalization, .ak-icon-small.ak-rarity-0, .ak-icon-small.ak-rarity-1, .ak-icon-small.ak-rarity-2, .ak-icon-small.ak-rarity-3, .ak-icon-small.ak-rarity-4, .ak-icon-small.ak-rarity-5, .ak-icon-small.ak-rarity-6, .ak-icon-small.ak-rarity-7, .ak-icon-small.ak-rarity-triangle-0, .ak-icon-small.ak-rarity-triangle-1, .ak-icon-small.ak-rarity-triangle-2, .ak-icon-small.ak-rarity-triangle-3, .ak-icon-small.ak-rarity-triangle-4, .ak-icon-small.ak-rarity-triangle-5, .ak-icon-small.ak-rarity-triangle-6, .ak-icon-small.ak-rarity-triangle-7, .ak-icon-small.ak-companions {
+    background-size: auto auto
+}
+
+.ak-icon-small.ak-neutral, .ak-icon-small.ak-tx-neutral {
+    background-position: -97px -15px
+}
+
+.ak-icon-small.ak-move, .ak-icon-small.ak-tx-movementpoints {
+    background-position: -97px -52px
+}
+
+.ak-icon-small.ak-water, .ak-icon-small.ak-tx-chance {
+    background-position: -97px -89px
+}
+
+.ak-icon-small.ak-range, .ak-icon-small.ak-tx-range {
+    background-position: -97px -128px
+}
+
+.ak-icon-small.ak-air, .ak-icon-small.ak-tx-agility {
+    background-position: -97px -167px
+}
+
+.ak-icon-small.ak-tx-initiative {
+    background-position: -97px -205px
+}
+
+.ak-icon-small.ak-action, .ak-icon-small.ak-tx-actionpoints {
+    background-position: -97px -243px
+}
+
+.ak-icon-small.ak-tx-prospecting {
+    background-position: -97px -279px
+}
+
+.ak-icon-small.ak-life, .ak-icon-small.ak-tx-vitality, .ak-icon-small.ak-tx-lifepoints {
+    background-position: -97px -319px
+}
+
+.ak-icon-small.ak-tx-wisdom {
+    background-position: -97px -358px
+}
+
+.ak-icon-small.ak-fire, .ak-icon-small.ak-tx-intelligence {
+    background-position: -97px -394px
+}
+
+.ak-icon-small.ak-earth, .ak-icon-small.ak-tx-strength {
+    background-position: -97px -432px
+}
+
+.ak-icon-small.ak-tx-escape {
+    background-position: -97px -468px
+}
+
+.ak-icon-small.ak-tx-invocation, .ak-icon-small.ak-tx-summonablecreaturesboost {
+    background-position: -97px -507px
+}
+
+.ak-icon-small.ak-tx-tackle {
+    background-position: -97px -545px
+}
+
+.ak-icon-small.ak-tx-criticalhit {
+    background-position: -97px -588px
+}
+
+.ak-icon-small.ak-armor {
+    background-position: -97px -588px
+}
+
+.ak-icon-small.ak-accessories {
+    background-position: -97px -588px
+}
+
+.ak-icon-small.ak-personalization {
+    background-position: -97px -588px
+}
+
+.ak-icon-small.ak-rarity-0 {
+    background-position: -97px -642px
+}
+
+.ak-icon-small.ak-rarity-1 {
+    background-position: -97px -674px
+}
+
+.ak-icon-small.ak-rarity-2 {
+    background-position: -97px -706px
+}
+
+.ak-icon-small.ak-rarity-3 {
+    background-position: -97px -738px
+}
+
+.ak-icon-small.ak-rarity-4 {
+    background-position: -97px -770px
+}
+
+.ak-icon-small.ak-rarity-5 {
+    background-position: -97px -802px
+}
+
+.ak-icon-small.ak-rarity-6 {
+    background-position: -97px -1182px
+}
+
+.ak-icon-small.ak-rarity-7 {
+    background-position: -97px -1120px
+}
+
+.ak-icon-small.ak-rarity-triangle-0 {
+    background-position: -97px -837px
+}
+
+.ak-icon-small.ak-rarity-triangle-1 {
+    background-position: -97px -870px
+}
+
+.ak-icon-small.ak-rarity-triangle-2 {
+    background-position: -97px -907px
+}
+
+.ak-icon-small.ak-rarity-triangle-3 {
+    background-position: -97px -940px
+}
+
+.ak-icon-small.ak-rarity-triangle-4 {
+    background-position: -97px -973px
+}
+
+.ak-icon-small.ak-rarity-triangle-5 {
+    background-position: -97px -1007px
+}
+
+.ak-icon-small.ak-rarity-triangle-6 {
+    background-position: -97px -1209px
+}
+
+.ak-icon-small.ak-tx-dodge {
+    background-position: -97px -122px
+}
+
+.ak-icon-small.ak-wakfu {
+    background-position: -97px -468px
+}
+
+.ak-icon-small.ak-boostcritical {
+    background-position: -96px -354px
+}
+
+.ak-icon-small.ak-boost {
+    background-position: -96px -1092px
+}
+
+.ak-icon-small.ak-resist {
+    background-position: -96px -1049px
+}
+
+.ak-icon-small.ak-companions {
+    background-position: -96px -1049px
+}
+
+.ak-icon-tiny.ak-weapons, .ak-icon-tiny.ak-plus-dofus, .ak-icon-tiny.ak-mmo, .ak-icon-tiny.ak-egg {
+    background-size: 64px auto
+}
+
+.ak-icon-tiny.ak-egg {
+    background-position: 0 -478px
+}
+
+.ak-icon-tiny.ak-weapons, .ak-icon-tiny.ak-plus-dofus, .ak-icon-tiny.ak-mmo {
+    background-position: 0 -436px
+}
+
+.ak-icon-big.ak-polls, .ak-icon-big.ak-alliance, .ak-icon-big.ak-alliance-pages, .ak-icon-big.ak-animation, .ak-icon-big.ak-builds, .ak-icon-big.ak-calendar, .ak-icon-big.ak-character, .ak-icon-big.ak-character-pages, .ak-icon-big.ak-devblog, .ak-icon-big.ak-directories, .ak-icon-big.ak-edition, .ak-icon-big.ak-editions-dofus, .ak-icon-big.ak-forum, .ak-icon-big.ak-guild, .ak-icon-big.ak-guild-pages, .ak-icon-big.ak-heroic, .ak-icon-big.ak-illustration, .ak-icon-big.ak-krosmaster, .ak-icon-big.ak-ladder-alliance, .ak-icon-big.ak-ladder-general, .ak-icon-big.ak-ladder-kolizeum, .ak-icon-big.ak-ladder-krosmaster, .ak-icon-big.ak-ladder-success, .ak-icon-big.ak-news, .ak-icon-big.ak-screenshot, .ak-icon-big.ak-server-offline, .ak-icon-big.ak-server-online, .ak-icon-big.ak-servers, .ak-icon-big.ak-sponsorship, .ak-icon-big.ak-success, .ak-icon-big.ak-support, .ak-icon-big.ak-videos, .ak-icon-big.ak-married, .ak-icon-big.ak-job-pages, .ak-icon-big.ak-rules, .ak-icon-big.ak-patchnote, .ak-icon-big.ak-filter, .ak-icon-big.ak-politics, .ak-icon-big.ak-wakfu, .ak-icon-med.ak-polls, .ak-icon-med.ak-alliance, .ak-icon-med.ak-alliance-pages, .ak-icon-med.ak-animation, .ak-icon-med.ak-builds, .ak-icon-med.ak-calendar, .ak-icon-med.ak-character, .ak-icon-med.ak-character-pages, .ak-icon-med.ak-devblog, .ak-icon-med.ak-directories, .ak-icon-med.ak-edition, .ak-icon-med.ak-editions-dofus, .ak-icon-med.ak-forum, .ak-icon-med.ak-guild, .ak-icon-med.ak-guild-pages, .ak-icon-med.ak-heroic, .ak-icon-med.ak-illustration, .ak-icon-med.ak-krosmaster, .ak-icon-med.ak-ladder-alliance, .ak-icon-med.ak-ladder-general, .ak-icon-med.ak-ladder-kolizeum, .ak-icon-med.ak-ladder-krosmaster, .ak-icon-med.ak-ladder-success, .ak-icon-med.ak-news, .ak-icon-med.ak-screenshot, .ak-icon-med.ak-server-offline, .ak-icon-med.ak-server-online, .ak-icon-med.ak-servers, .ak-icon-med.ak-sponsorship, .ak-icon-med.ak-success, .ak-icon-med.ak-support, .ak-icon-med.ak-videos, .ak-icon-med.ak-married, .ak-icon-med.ak-job-pages, .ak-icon-med.ak-rules, .ak-icon-med.ak-patchnote, .ak-icon-med.ak-filter, .ak-icon-med.ak-politics, .ak-icon-med.ak-wakfu, .ak-icon-tiny.ak-polls, .ak-icon-tiny.ak-alliance, .ak-icon-tiny.ak-alliance-pages, .ak-icon-tiny.ak-animation, .ak-icon-tiny.ak-builds, .ak-icon-tiny.ak-calendar, .ak-icon-tiny.ak-character, .ak-icon-tiny.ak-character-pages, .ak-icon-tiny.ak-devblog, .ak-icon-tiny.ak-directories, .ak-icon-tiny.ak-edition, .ak-icon-tiny.ak-editions-dofus, .ak-icon-tiny.ak-forum, .ak-icon-tiny.ak-guild, .ak-icon-tiny.ak-guild-pages, .ak-icon-tiny.ak-heroic, .ak-icon-tiny.ak-illustration, .ak-icon-tiny.ak-krosmaster, .ak-icon-tiny.ak-ladder-alliance, .ak-icon-tiny.ak-ladder-general, .ak-icon-tiny.ak-ladder-kolizeum, .ak-icon-tiny.ak-ladder-krosmaster, .ak-icon-tiny.ak-ladder-success, .ak-icon-tiny.ak-news, .ak-icon-tiny.ak-screenshot, .ak-icon-tiny.ak-server-offline, .ak-icon-tiny.ak-server-online, .ak-icon-tiny.ak-servers, .ak-icon-tiny.ak-sponsorship, .ak-icon-tiny.ak-success, .ak-icon-tiny.ak-support, .ak-icon-tiny.ak-videos, .ak-icon-tiny.ak-married, .ak-icon-tiny.ak-job-pages, .ak-icon-tiny.ak-rules, .ak-icon-tiny.ak-patchnote, .ak-icon-tiny.ak-filter, .ak-icon-tiny.ak-politics, .ak-icon-tiny.ak-wakfu {
+    background-image: url("/wakfu/ng/modules/icons/sprite_community.png");
+    background-repeat: no-repeat
+}
+
+.ak-icon-big.ak-polls, .ak-icon-big.ak-alliance, .ak-icon-big.ak-animation, .ak-icon-big.ak-builds, .ak-icon-big.ak-calendar, .ak-icon-big.ak-character, .ak-icon-big.ak-devblog, .ak-icon-big.ak-directories, .ak-icon-big.ak-edition, .ak-icon-big.ak-editions-dofus, .ak-icon-big.ak-forum, .ak-icon-big.ak-guild, .ak-icon-big.ak-guild-pages, .ak-icon-big.ak-heroic, .ak-icon-big.ak-illustration, .ak-icon-big.ak-krosmaster, .ak-icon-big.ak-ladder-alliance, .ak-icon-big.ak-ladder-general, .ak-icon-big.ak-ladder-kolizeum, .ak-icon-big.ak-ladder-krosmaster, .ak-icon-big.ak-ladder-success, .ak-icon-big.ak-news, .ak-icon-big.ak-screenshot, .ak-icon-big.ak-server-offline, .ak-icon-big.ak-server-online, .ak-icon-big.ak-servers, .ak-icon-big.ak-sponsorship, .ak-icon-big.ak-success, .ak-icon-big.ak-support, .ak-icon-big.ak-videos, .ak-icon-big.ak-married, .ak-icon-big.ak-rules, .ak-icon-big.ak-patchnote, .ak-icon-big.ak-filter, .ak-icon-big.ak-politics, .ak-icon-big.ak-wakfu {
+    background-size: 65px auto
+}
+
+.ak-icon-big.ak-polls {
+    background-position: 0 -10px
+}
+
+.ak-icon-big.ak-alliance {
+    background-position: 0 -95px
+}
+
+.ak-icon-big.ak-animation {
+    background-position: 0 -180px
+}
+
+.ak-icon-big.ak-builds {
+    background-position: 0 -265px
+}
+
+.ak-icon-big.ak-calendar {
+    background-position: 0 -350px
+}
+
+.ak-icon-big.ak-character {
+    background-position: 0 -435px
+}
+
+.ak-icon-big.ak-devblog {
+    background-position: 0 -520px
+}
+
+.ak-icon-big.ak-directories {
+    background-position: 0 -605px
+}
+
+.ak-icon-big.ak-editions-dofus, .ak-icon-big.ak-edition {
+    background-position: 0 -690px
+}
+
+.ak-icon-big.ak-forum {
+    background-position: 0 -775px
+}
+
+.ak-icon-big.ak-guild {
+    background-position: 0 -860px
+}
+
+.ak-icon-big.ak-heroic {
+    background-position: 0 -945px
+}
+
+.ak-icon-big.ak-illustration {
+    background-position: 0 -1030px
+}
+
+.ak-icon-big.ak-krosmaster {
+    background-position: 0 -1115px
+}
+
+.ak-icon-big.ak-ladder-alliance {
+    background-position: 0 -1200px
+}
+
+.ak-icon-big.ak-ladder-general {
+    background-position: 0 -1285px
+}
+
+.ak-icon-big.ak-ladder-kolizeum {
+    background-position: 0 -1370px
+}
+
+.ak-icon-big.ak-ladder-krosmaster {
+    background-position: 0 -1455px
+}
+
+.ak-icon-big.ak-ladder-success {
+    background-position: 0 -1540px
+}
+
+.ak-icon-big.ak-news {
+    background-position: 0 -1625px
+}
+
+.ak-icon-big.ak-screenshot {
+    background-position: 0 -1710px
+}
+
+.ak-icon-big.ak-server-offline {
+    background-position: 0 -1795px
+}
+
+.ak-icon-big.ak-server-online {
+    background-position: 0 -1880px
+}
+
+.ak-icon-big.ak-servers {
+    background-position: 0 -1965px
+}
+
+.ak-icon-big.ak-sponsorship {
+    background-position: 0 -2050px
+}
+
+.ak-icon-big.ak-success {
+    background-position: 0 -2135px
+}
+
+.ak-icon-big.ak-support {
+    background-position: 0 -2220px
+}
+
+.ak-icon-big.ak-videos {
+    background-position: 0 -2305px
+}
+
+.ak-icon-big.ak-married {
+    background-position: 0 -2390px
+}
+
+.ak-icon-big.ak-job-pages {
+    background-position: 0 -2477px
+}
+
+.ak-icon-big.ak-rules {
+    background-position: 0 -2610px
+}
+
+.ak-icon-big.ak-filter {
+    background-position: 0 -2783px
+}
+
+.ak-icon-big.ak-patchnote {
+    background-position: 0 -2936px
+}
+
+.ak-icon-big.ak-politics {
+    background-position: 0 -3017px
+}
+
+.ak-icon-big.ak-wakfu {
+    background-position: 0 -2695px
+}
+
+.ak-icon-med.ak-polls, .ak-icon-med.ak-alliance, .ak-icon-med.ak-animation, .ak-icon-med.ak-builds, .ak-icon-med.ak-calendar, .ak-icon-med.ak-character, .ak-icon-med.ak-devblog, .ak-icon-med.ak-directories, .ak-icon-med.ak-editions-dofus, .ak-icon-med.ak-edition, .ak-icon-med.ak-forum, .ak-icon-med.ak-guild, .ak-icon-med.ak-heroic, .ak-icon-med.ak-illustration, .ak-icon-med.ak-krosmaster, .ak-icon-med.ak-ladder-alliance, .ak-icon-med.ak-ladder-general, .ak-icon-med.ak-ladder-kolizeum, .ak-icon-med.ak-ladder-krosmaster, .ak-icon-med.ak-ladder-success, .ak-icon-med.ak-news, .ak-icon-med.ak-screenshot, .ak-icon-med.ak-server-offline, .ak-icon-med.ak-server-online, .ak-icon-med.ak-servers, .ak-icon-med.ak-sponsorship, .ak-icon-med.ak-success, .ak-icon-med.ak-support, .ak-icon-med.ak-videos, .ak-icon-med.ak-married, .ak-icon-med.ak-rules, .ak-icon-med.ak-patchnote, .ak-icon-med.ak-filter, .ak-icon-med.ak-politics {
+    background-size: 46px auto
+}
+
+.ak-icon-med.ak-polls {
+    background-position: 0 -5px
+}
+
+.ak-icon-med.ak-alliance-pages, .ak-icon-med.ak-alliance {
+    background-position: 0 -65px
+}
+
+.ak-icon-med.ak-animation {
+    background-position: 0 -126px
+}
+
+.ak-icon-med.ak-builds {
+    background-position: 0 -187px
+}
+
+.ak-icon-med.ak-calendar {
+    background-position: 0 -245px
+}
+
+.ak-icon-med.ak-character, .ak-icon-med.ak-character-pages {
+    background-position: 0 -306px
+}
+
+.ak-icon-med.ak-devblog {
+    background-position: 0 -365px
+}
+
+.ak-icon-med.ak-directories {
+    background-position: 0 -426px
+}
+
+.ak-icon-med.ak-editions-dofus, .ak-icon-med.ak-edition {
+    background-position: 0 -486px
+}
+
+.ak-icon-med.ak-forum {
+    background-position: 0 -546px
+}
+
+.ak-icon-med.ak-guild, .ak-icon-med.ak-guild-pages {
+    background-position: 0 -605px
+}
+
+.ak-icon-med.ak-heroic {
+    background-position: 0 -666px
+}
+
+.ak-icon-med.ak-illustration {
+    background-position: 0 -725px
+}
+
+.ak-icon-med.ak-krosmaster {
+    background-position: 0 -788px
+}
+
+.ak-icon-med.ak-ladder-alliance {
+    background-position: 0 -845px
+}
+
+.ak-icon-med.ak-ladder-general {
+    background-position: 0 -906px
+}
+
+.ak-icon-med.ak-ladder-kolizeum {
+    background-position: 0 -966px
+}
+
+.ak-icon-med.ak-ladder-krosmaster {
+    background-position: 0 -1025px
+}
+
+.ak-icon-med.ak-ladder-success {
+    background-position: 0 -1086px
+}
+
+.ak-icon-med.ak-news {
+    background-position: 0 -1146px
+}
+
+.ak-icon-med.ak-screenshot {
+    background-position: 0 -1205px
+}
+
+.ak-icon-med.ak-server-offline {
+    background-position: 0 -1267px
+}
+
+.ak-icon-med.ak-server-online {
+    background-position: 0 -1328px
+}
+
+.ak-icon-med.ak-servers {
+    background-position: 0 -1386px
+}
+
+.ak-icon-med.ak-sponsorship {
+    background-position: 0 -1445px
+}
+
+.ak-icon-med.ak-success {
+    background-position: 0 -1509px
+}
+
+.ak-icon-med.ak-support {
+    background-position: 0 -1564px
+}
+
+.ak-icon-med.ak-videos {
+    background-position: 0 -1625px
+}
+
+.ak-icon-med.ak-married {
+    background-position: 0 -1692px
+}
+
+.ak-icon-med.ak-job-pages {
+    background-position: 0 -1750px
+}
+
+.ak-icon-med.ak-rules {
+    background-position: 0 -1846px
+}
+
+.ak-icon-med.ak-filter {
+    background-position: 0 -1963px
+}
+
+.ak-icon-med.ak-patchnote {
+    background-position: 0 -2074px
+}
+
+.ak-icon-med.ak-politics {
+    background-position: 0 -2074px
+}
+
+.ak-icon-tiny.ak-krosmaster, .ak-icon-tiny.ak-editions-dofus, .ak-icon-tiny.ak-edition, .ak-icon-tiny.ak-animation {
+    background-size: 34px auto
+}
+
+.ak-icon-tiny.ak-krosmaster {
+    background-position: 0 -583px
+}
+
+.ak-icon-tiny.ak-editions-dofus, .ak-icon-tiny.ak-edition {
+    background-position: 0 -360px
+}
+
+.ak-icon-tiny.ak-animation {
+    background-position: 0 -94px
+}
+
+.ak-tags-action {
+    background-image: url("/icons/sprite_tags_action.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 21px;
+    height: 21px
+}
+
+    .ak-tags-action.ak-tags-action-4 {
+        background-position: -5px -758px
+    }
+
+    .ak-tags-action.ak-tags-action-10 {
+        background-position: -4px -3px
+    }
+
+    .ak-tags-action.ak-tags-action-11 {
+        background-position: -4px -34px
+    }
+
+    .ak-tags-action.ak-tags-action-12 {
+        background-position: -3px -62px
+    }
+
+    .ak-tags-action.ak-tags-action-13 {
+        background-position: -4px -88px
+    }
+
+    .ak-tags-action.ak-tags-action-14 {
+        background-position: -5px -115px
+    }
+
+    .ak-tags-action.ak-tags-action-15 {
+        background-position: -5px -135px
+    }
+
+    .ak-tags-action.ak-tags-action-16 {
+        background-position: -5px -163px
+    }
+
+    .ak-tags-action.ak-tags-action-17 {
+        background-position: -5px -185px
+    }
+
+    .ak-tags-action.ak-tags-action-18 {
+        background-position: -5px -212px
+    }
+
+    .ak-tags-action.ak-tags-action-19 {
+        background-position: -5px -243px
+    }
+
+    .ak-tags-action.ak-tags-action-20 {
+        background-position: -1px -265px
+    }
+
+    .ak-tags-action.ak-tags-action-21 {
+        background-position: -5px -298px
+    }
+
+    .ak-tags-action.ak-tags-action-22 {
+        background-position: -5px -321px
+    }
+
+    .ak-tags-action.ak-tags-action-23 {
+        background-position: -4px -344px
+    }
+
+    .ak-tags-action.ak-tags-action-24 {
+        background-position: -2px -368px
+    }
+
+    .ak-tags-action.ak-tags-action-25 {
+        background-position: -3px -391px
+    }
+
+    .ak-tags-action.ak-tags-action-26 {
+        background-position: -5px -420px
+    }
+
+    .ak-tags-action.ak-tags-action-27 {
+        background-position: -5px -441px
+    }
+
+    .ak-tags-action.ak-tags-action-28 {
+        background-position: -5px -465px
+    }
+
+    .ak-tags-action.ak-tags-action-29 {
+        background-position: -5px -484px
+    }
+
+    .ak-tags-action.ak-tags-action-30 {
+        background-position: -5px -507px
+    }
+
+    .ak-tags-action.ak-tags-action-31 {
+        background-position: -5px -536px
+    }
+
+    .ak-tags-action.ak-tags-action-32 {
+        background-position: -3px -552px
+    }
+
+    .ak-tags-action.ak-tags-action-33 {
+        background-position: -2px -576px
+    }
+
+    .ak-tags-action.ak-tags-action-34 {
+        background-position: -8px -603px
+    }
+
+    .ak-tags-action.ak-tags-action-35 {
+        background-position: -3px -629px
+    }
+
+    .ak-tags-action.ak-tags-action-36 {
+        background-position: -5px -659px
+    }
+
+    .ak-tags-action.ak-tags-action-37 {
+        background-position: -5px -683px
+    }
+
+    .ak-tags-action.ak-tags-action-38 {
+        background-position: -5px -708px
+    }
+
+    .ak-tags-action.ak-tags-action-39 {
+        background-position: -5px -732px
+    }
+
+    .ak-tags-action.ak-tags-action-40 {
+        background-position: -5px -789px
+    }
+
+    .ak-tags-action.ak-tags-action-41 {
+        background-position: -5px -816px
+    }
+
+    .ak-tags-action.ak-tags-action-42 {
+        background-position: -5px -840px
+    }
+
+    .ak-tags-action.ak-tags-action-43 {
+        background-position: -5px -860px
+    }
+
+.ak-icon-big.ak-polls, .ak-icon-big.ak-alliance, .ak-icon-big.ak-alliance-pages, .ak-icon-big.ak-animation, .ak-icon-big.ak-builds, .ak-icon-big.ak-calendar, .ak-icon-big.ak-character, .ak-icon-big.ak-character-pages, .ak-icon-big.ak-devblog, .ak-icon-big.ak-directories, .ak-icon-big.ak-edition, .ak-icon-big.ak-editions-dofus, .ak-icon-big.ak-forum, .ak-icon-big.ak-guild, .ak-icon-big.ak-guild-pages, .ak-icon-big.ak-heroic, .ak-icon-big.ak-illustration, .ak-icon-big.ak-krosmaster, .ak-icon-big.ak-ladder-alliance, .ak-icon-big.ak-ladder-general, .ak-icon-big.ak-ladder-kolizeum, .ak-icon-big.ak-ladder-krosmaster, .ak-icon-big.ak-ladder-success, .ak-icon-big.ak-news, .ak-icon-big.ak-screenshot, .ak-icon-big.ak-server-offline, .ak-icon-big.ak-server-online, .ak-icon-big.ak-servers, .ak-icon-big.ak-sponsorship, .ak-icon-big.ak-success, .ak-icon-big.ak-support, .ak-icon-big.ak-videos, .ak-icon-big.ak-married, .ak-icon-big.ak-job-pages, .ak-icon-big.ak-rules, .ak-icon-big.ak-patchnote, .ak-icon-big.ak-progress, .ak-icon-big.ak-address, .ak-icon-big.ak-download, .ak-icon-big.ak-game, .ak-icon-big.ak-illico-patraque, .ak-icon-med.ak-polls, .ak-icon-med.ak-alliance, .ak-icon-med.ak-alliance-pages, .ak-icon-med.ak-animation, .ak-icon-med.ak-builds, .ak-icon-med.ak-calendar, .ak-icon-med.ak-character, .ak-icon-med.ak-character-pages, .ak-icon-med.ak-devblog, .ak-icon-med.ak-directories, .ak-icon-med.ak-edition, .ak-icon-med.ak-editions-dofus, .ak-icon-med.ak-forum, .ak-icon-med.ak-guild, .ak-icon-med.ak-guild-pages, .ak-icon-med.ak-heroic, .ak-icon-med.ak-illustration, .ak-icon-med.ak-krosmaster, .ak-icon-med.ak-ladder-alliance, .ak-icon-med.ak-ladder-general, .ak-icon-med.ak-ladder-kolizeum, .ak-icon-med.ak-ladder-krosmaster, .ak-icon-med.ak-ladder-success, .ak-icon-med.ak-news, .ak-icon-med.ak-screenshot, .ak-icon-med.ak-server-offline, .ak-icon-med.ak-server-online, .ak-icon-med.ak-servers, .ak-icon-med.ak-sponsorship, .ak-icon-med.ak-success, .ak-icon-med.ak-support, .ak-icon-med.ak-videos, .ak-icon-med.ak-married, .ak-icon-med.ak-job-pages, .ak-icon-med.ak-rules, .ak-icon-med.ak-patchnote, .ak-icon-med.ak-progress, .ak-icon-med.ak-address, .ak-icon-med.ak-download, .ak-icon-med.ak-game, .ak-icon-med.ak-illico-patraque, .ak-icon-tiny.ak-polls, .ak-icon-tiny.ak-alliance, .ak-icon-tiny.ak-alliance-pages, .ak-icon-tiny.ak-animation, .ak-icon-tiny.ak-builds, .ak-icon-tiny.ak-calendar, .ak-icon-tiny.ak-character, .ak-icon-tiny.ak-character-pages, .ak-icon-tiny.ak-devblog, .ak-icon-tiny.ak-directories, .ak-icon-tiny.ak-edition, .ak-icon-tiny.ak-editions-dofus, .ak-icon-tiny.ak-forum, .ak-icon-tiny.ak-guild, .ak-icon-tiny.ak-guild-pages, .ak-icon-tiny.ak-heroic, .ak-icon-tiny.ak-illustration, .ak-icon-tiny.ak-krosmaster, .ak-icon-tiny.ak-ladder-alliance, .ak-icon-tiny.ak-ladder-general, .ak-icon-tiny.ak-ladder-kolizeum, .ak-icon-tiny.ak-ladder-krosmaster, .ak-icon-tiny.ak-ladder-success, .ak-icon-tiny.ak-news, .ak-icon-tiny.ak-screenshot, .ak-icon-tiny.ak-server-offline, .ak-icon-tiny.ak-server-online, .ak-icon-tiny.ak-servers, .ak-icon-tiny.ak-sponsorship, .ak-icon-tiny.ak-success, .ak-icon-tiny.ak-support, .ak-icon-tiny.ak-videos, .ak-icon-tiny.ak-married, .ak-icon-tiny.ak-job-pages, .ak-icon-tiny.ak-rules, .ak-icon-tiny.ak-patchnote, .ak-icon-tiny.ak-progress, .ak-icon-tiny.ak-address, .ak-icon-tiny.ak-download, .ak-icon-tiny.ak-game, .ak-icon-tiny.ak-illico-patraque {
+    background-image: url("/wakfu/ng/modules/mmorpg/community/icons/sprite.png");
+    background-repeat: no-repeat
+}
+
+.ak-icon-big.ak-polls, .ak-icon-big.ak-alliance, .ak-icon-big.ak-animation, .ak-icon-big.ak-builds, .ak-icon-big.ak-calendar, .ak-icon-big.ak-character, .ak-icon-big.ak-devblog, .ak-icon-big.ak-directories, .ak-icon-big.ak-edition, .ak-icon-big.ak-editions-dofus, .ak-icon-big.ak-forum, .ak-icon-big.ak-guild, .ak-icon-big.ak-guild-pages, .ak-icon-big.ak-heroic, .ak-icon-big.ak-illustration, .ak-icon-big.ak-krosmaster, .ak-icon-big.ak-ladder-alliance, .ak-icon-big.ak-ladder-general, .ak-icon-big.ak-ladder-kolizeum, .ak-icon-big.ak-ladder-krosmaster, .ak-icon-big.ak-ladder-success, .ak-icon-big.ak-news, .ak-icon-big.ak-screenshot, .ak-icon-big.ak-server-offline, .ak-icon-big.ak-server-online, .ak-icon-big.ak-servers, .ak-icon-big.ak-sponsorship, .ak-icon-big.ak-success, .ak-icon-big.ak-support, .ak-icon-big.ak-videos, .ak-icon-big.ak-married, .ak-icon-big.ak-rules, .ak-icon-big.ak-patchnote, .ak-icon-big.ak-progress, .ak-icon-big.ak-address, .ak-icon-big.ak-download, .ak-icon-big.ak-illico-patraque {
+    background-size: 65px auto
+}
+
+.ak-icon-big.ak-polls {
+    background-position: 0 -10px
+}
+
+.ak-icon-big.ak-alliance {
+    background-position: 0 -95px
+}
+
+.ak-icon-big.ak-animation {
+    background-position: 0 -180px
+}
+
+.ak-icon-big.ak-builds {
+    background-position: 0 -265px
+}
+
+.ak-icon-big.ak-calendar {
+    background-position: 0 -350px
+}
+
+.ak-icon-big.ak-character {
+    background-position: 0 -435px
+}
+
+.ak-icon-big.ak-devblog {
+    background-position: 0 -520px
+}
+
+.ak-icon-big.ak-directories {
+    background-position: 0 -605px
+}
+
+.ak-icon-big.ak-editions-dofus, .ak-icon-big.ak-edition {
+    background-position: 0 -690px
+}
+
+.ak-icon-big.ak-forum {
+    background-position: 0 -775px
+}
+
+.ak-icon-big.ak-guild {
+    background-position: 0 -860px
+}
+
+.ak-icon-big.ak-heroic {
+    background-position: 0 -945px
+}
+
+.ak-icon-big.ak-illustration {
+    background-position: 0 -1030px
+}
+
+.ak-icon-big.ak-krosmaster {
+    background-position: 0 -1115px
+}
+
+.ak-icon-big.ak-ladder-alliance {
+    background-position: 0 -1200px
+}
+
+.ak-icon-big.ak-ladder-general {
+    background-position: 0 -1285px
+}
+
+.ak-icon-big.ak-ladder-kolizeum {
+    background-position: 0 -1370px
+}
+
+.ak-icon-big.ak-ladder-krosmaster {
+    background-position: 0 -1455px
+}
+
+.ak-icon-big.ak-ladder-success {
+    background-position: 0 -1540px
+}
+
+.ak-icon-big.ak-news {
+    background-position: 0 -1625px
+}
+
+.ak-icon-big.ak-screenshot {
+    background-position: 0 -1710px
+}
+
+.ak-icon-big.ak-server-offline {
+    background-position: 0 -1795px
+}
+
+.ak-icon-big.ak-server-online {
+    background-position: 0 -1880px
+}
+
+.ak-icon-big.ak-servers {
+    background-position: 0 -1965px
+}
+
+.ak-icon-big.ak-sponsorship {
+    background-position: 0 -2050px
+}
+
+.ak-icon-big.ak-success {
+    background-position: 0 -2135px
+}
+
+.ak-icon-big.ak-support {
+    background-position: 0 -2220px
+}
+
+.ak-icon-big.ak-videos {
+    background-position: 0 -2305px
+}
+
+.ak-icon-big.ak-married {
+    background-position: 0 -2390px
+}
+
+.ak-icon-big.ak-job-pages {
+    background-position: 0 -2477px
+}
+
+.ak-icon-big.ak-rules {
+    background-position: 0 -2610px
+}
+
+.ak-icon-big.ak-patchnote {
+    background-position: 0 -2924px
+}
+
+.ak-icon-big.ak-address {
+    background-position: 0 -3076px
+}
+
+.ak-icon-big.ak-progress {
+    background-position: 0 -3141px
+}
+
+.ak-icon-big.ak-download {
+    background-position: 3px -3222px
+}
+
+.ak-icon-big.ak-game {
+    background-position: 0px -2700px
+}
+
+.ak-icon-big.ak-illico-patraque {
+    background-position: 0 -3306px
+}
+
+.ak-icon-med.ak-polls, .ak-icon-med.ak-alliance, .ak-icon-med.ak-animation, .ak-icon-med.ak-builds, .ak-icon-med.ak-calendar, .ak-icon-med.ak-character, .ak-icon-med.ak-devblog, .ak-icon-med.ak-directories, .ak-icon-med.ak-editions-dofus, .ak-icon-med.ak-edition, .ak-icon-med.ak-forum, .ak-icon-med.ak-guild, .ak-icon-med.ak-heroic, .ak-icon-med.ak-illustration, .ak-icon-med.ak-krosmaster, .ak-icon-med.ak-ladder-alliance, .ak-icon-med.ak-ladder-general, .ak-icon-med.ak-ladder-kolizeum, .ak-icon-med.ak-ladder-krosmaster, .ak-icon-med.ak-ladder-success, .ak-icon-med.ak-news, .ak-icon-med.ak-screenshot, .ak-icon-med.ak-server-offline, .ak-icon-med.ak-server-online, .ak-icon-med.ak-servers, .ak-icon-med.ak-sponsorship, .ak-icon-med.ak-success, .ak-icon-med.ak-support, .ak-icon-med.ak-videos, .ak-icon-med.ak-married, .ak-icon-med.ak-rules, .ak-icon-med.ak-patchnote, .ak-icon-med.ak-download, .ak-icon-med.ak-illico-patraque {
+    background-size: 46px auto
+}
+
+.ak-icon-med.ak-polls {
+    background-position: 0 -5px
+}
+
+.ak-icon-med.ak-alliance-pages, .ak-icon-med.ak-alliance {
+    background-position: 0 -65px
+}
+
+.ak-icon-med.ak-animation {
+    background-position: 0 -126px
+}
+
+.ak-icon-med.ak-builds {
+    background-position: 0 -187px
+}
+
+.ak-icon-med.ak-calendar {
+    background-position: 0 -245px
+}
+
+.ak-icon-med.ak-character, .ak-icon-med.ak-character-pages {
+    background-position: 0 -306px
+}
+
+.ak-icon-med.ak-devblog {
+    background-position: 0 -365px
+}
+
+.ak-icon-med.ak-directories {
+    background-position: 0 -426px
+}
+
+.ak-icon-med.ak-editions-dofus, .ak-icon-med.ak-edition {
+    background-position: 0 -486px
+}
+
+.ak-icon-med.ak-forum {
+    background-position: 0 -546px
+}
+
+.ak-icon-med.ak-guild, .ak-icon-med.ak-guild-pages {
+    background-position: 0 -605px
+}
+
+.ak-icon-med.ak-heroic {
+    background-position: 0 -666px
+}
+
+.ak-icon-med.ak-illustration {
+    background-position: 0 -725px
+}
+
+.ak-icon-med.ak-krosmaster {
+    background-position: 0 -788px
+}
+
+.ak-icon-med.ak-ladder-alliance {
+    background-position: 0 -845px
+}
+
+.ak-icon-med.ak-ladder-general {
+    background-position: 0 -906px
+}
+
+.ak-icon-med.ak-ladder-kolizeum {
+    background-position: 0 -966px
+}
+
+.ak-icon-med.ak-ladder-krosmaster {
+    background-position: 0 -1025px
+}
+
+.ak-icon-med.ak-ladder-success {
+    background-position: 0 -1086px
+}
+
+.ak-icon-med.ak-news {
+    background-position: 0 -1146px
+}
+
+.ak-icon-med.ak-screenshot {
+    background-position: 0 -1205px
+}
+
+.ak-icon-med.ak-server-offline {
+    background-position: 0 -1267px
+}
+
+.ak-icon-med.ak-server-online {
+    background-position: 0 -1328px
+}
+
+.ak-icon-med.ak-servers {
+    background-position: 0 -1386px
+}
+
+.ak-icon-med.ak-sponsorship {
+    background-position: 0 -1445px
+}
+
+.ak-icon-med.ak-success {
+    background-position: 0 -1509px
+}
+
+.ak-icon-med.ak-support {
+    background-position: 0 -1564px
+}
+
+.ak-icon-med.ak-videos {
+    background-position: 0 -1625px
+}
+
+.ak-icon-med.ak-married {
+    background-position: 0 -1692px
+}
+
+.ak-icon-med.ak-job-pages {
+    background-position: 0 -1750px
+}
+
+.ak-icon-med.ak-rules {
+    background-position: 0 -1846px
+}
+
+.ak-icon-med.ak-patchnote {
+    background-position: 0 -2069px
+}
+
+.ak-icon-med.ak-download {
+    background-position: 0 -2069px
+}
+
+.ak-icon-med.ak-illico-patraque {
+    background-position: 0 -3576px
+}
+
+.ak-icon-tiny.ak-krosmaster, .ak-icon-tiny.ak-editions-dofus, .ak-icon-tiny.ak-edition, .ak-icon-tiny.ak-animation {
+    background-size: 34px auto
+}
+
+.ak-icon-tiny.ak-krosmaster {
+    background-position: 0 -583px
+}
+
+.ak-icon-tiny.ak-editions-dofus, .ak-icon-tiny.ak-edition {
+    background-position: 0 -360px
+}
+
+.ak-icon-tiny.ak-animation {
+    background-position: 0 -94px
+}
+
+.ak-btn-big.ak-btn-play {
+    font-size: 32px;
+    font-size: 3.2rem;
+    padding: 3px 19px;
+    padding: 0.3rem 1.9rem;
+    margin-left: -18px;
+    white-space: normal
+}
+
+@media all and (min-width: 768px) {
+    .ak-btn-big.ak-btn-play {
+        line-height: 33px
+    }
+}
+
+@media all and (min-width: 992px) {
+    .ak-btn-big.ak-btn-play {
+        line-height: 55px
+    }
+}
