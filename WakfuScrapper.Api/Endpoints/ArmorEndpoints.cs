@@ -8,12 +8,14 @@ public static class ArmorEndpoints
     public static void MapArmorEndpoints(this WebApplication app)
     {
         var armorApi = app.MapGroup(ApiRoutes.Armor);
-        armorApi.MapGet("", GetAll);
+        armorApi.MapGet(ApiRoutes.ArmorBy, GetByUrl);
     }
 
-    public static async Task<IResult> GetAll(ArmorServices armorService)
+    public static async Task<IResult> GetByUrl(string? url, ArmorServices armorService)
     {
-        var payload = await armorService.Test();
+        url = string.IsNullOrEmpty(url) ? "https://www.wakfu.com/en/mmorpg/encyclopedia/armors/12488" : url;
+        var payload = await armorService.GetItemByUrl(url);
+
         return payload.ToResult();
     }
 }

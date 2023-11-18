@@ -1,4 +1,6 @@
-﻿using System.Threading;
+﻿using System;
+using System.Threading;
+using WakfuScrapper.Api.Attributes;
 using WakfuScrapper.Api.Commons;
 using WakfuScrapper.Api.Helpers;
 using WakfuScrapper.Domain.Commons;
@@ -6,6 +8,7 @@ using WakfuScrapper.Domain.Models;
 
 namespace WakfuScrapper.Api.Features.ArmorFeature;
 
+[ServiceAvailable(Type = ServiceType.Scoped)]
 public class ArmorServices
 {
     private readonly ArmorScrapperService _service;
@@ -15,38 +18,16 @@ public class ArmorServices
         _service = service;
     }
 
-    public async Task<Payload<List<Equipment>, List<JsonResponse>>> Test()
+    public async Task<Payload<Armor, List<JsonResponse>>> GetItemByUrl(string url)
     {
         try
         {
-            var equipmentUrls = new List<string>
-            {
-                "https://www.wakfu.com/es/mmorpg/enciclopedia/armaduras/12488-black-crow-helmet",
-                // Añadir más URLs aquí
-            };
-
-            var equipments = new List<Equipment>();
-            var errors = new List<JsonResponse>();
-
-            foreach (var url in equipmentUrls)
-            {
-                try
-                {
-                    var equipment = await _service.GetEquipmentDetailsAsync(url);
-                    equipments.Add(equipment);
-                }
-                catch (Exception ex)
-                {
-                    // Agregar errores a la lista con detalles
-                    errors.Add(new JsonResponse { ErrorMessage = ex.Message });
-                }
-            }
-
-            return equipments;
+            var equipment = await _service.GetEquipmentDetailsAsync(url);
+            return equipment;
         }
         catch (Exception ex)
         {
-            return ErrorHelper.LogExceptionAndReturnError<List<Equipment>, ArmorServices>(ex);
+            return ErrorHelper.LogExceptionAndReturnError<Armor, ArmorServices>(ex);
         }
     }
 }

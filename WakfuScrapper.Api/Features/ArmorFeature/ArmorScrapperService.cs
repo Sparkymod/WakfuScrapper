@@ -1,9 +1,11 @@
 ﻿using System.Text.RegularExpressions;
 using HtmlAgilityPack;
+using WakfuScrapper.Api.Attributes;
 using WakfuScrapper.Domain.Models;
 
 namespace WakfuScrapper.Api.Features.ArmorFeature;
 
+[ServiceAvailable(Type = ServiceType.Scoped)]
 public class ArmorScrapperService
 {
     private readonly HttpClient _httpClient;
@@ -13,7 +15,7 @@ public class ArmorScrapperService
         _httpClient = httpClient;
     }
 
-    public async Task<Equipment> GetEquipmentDetailsAsync(string url)
+    public async Task<Armor> GetEquipmentDetailsAsync(string url)
     {
         var html = await _httpClient.GetStringAsync(url);
 
@@ -44,7 +46,7 @@ public class ArmorScrapperService
         var rarityClass = raritySpan.GetAttributeValue("class", "").Split(' ').FirstOrDefault(c => c.StartsWith("ak-rarity-"));
         var rarityName = rarityNode.InnerText.Trim();
 
-        var equipment = new Equipment
+        var equipment = new Armor
         {
             Title = title,
             ImgSrc = imageUrl,

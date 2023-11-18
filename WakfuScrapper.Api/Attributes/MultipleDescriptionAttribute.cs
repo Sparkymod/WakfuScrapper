@@ -27,3 +27,16 @@ public class ResponseDescriptionAttribute : Attribute
         Description = description;
     }
 }
+
+[AttributeUsage(AttributeTargets.Class)]
+public class ServiceAvailableAttribute : Attribute
+{
+    public ServiceType Type { get; set; }
+}
+
+public enum ServiceType
+{
+    Scoped,
+    Transient,
+    Singleton
+}

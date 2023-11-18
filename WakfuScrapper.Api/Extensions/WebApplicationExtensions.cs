@@ -11,5 +11,6 @@ public static class WebApplicationExtensions
     public static void MapApplicationEndpoints(this WebApplication app)
     {
         app.MapArmorEndpoints();
+        app.MapSpellEndpoints();
     }
 }

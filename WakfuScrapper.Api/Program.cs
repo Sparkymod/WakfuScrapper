@@ -1,7 +1,6 @@
 using Serilog;
 using System.Text.Json.Serialization.Metadata;
 using WakfuScrapper.Api.Extensions;
-using WakfuScrapper.Api.Features.ArmorFeature;
 using WakfuScrapper.Api.Middleware;
 
 var builder = WebApplication.CreateSlimBuilder(args);
@@ -15,12 +14,7 @@ builder.Services.ConfigureHttpJsonOptions(options =>
 // Set up logging
 builder.Host.UseSerilog(SerilogExtensions.InitializeSerilog(config));
 
-builder.Services.AddHealthChecks();
-builder.Services.AddHttpContextAccessor();
-builder.Services.AddHttpClient();
-
-builder.Services.AddScoped<ArmorServices>();
-builder.Services.AddScoped<ArmorScrapperService>();
+builder.Services.AddAllServices();
 
 var app = builder.Build();
 

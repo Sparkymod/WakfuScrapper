@@ -1,6 +1,6 @@
 ﻿namespace WakfuScrapper.Domain.Models;
 
-public class Equipment : Entity
+public class Armor : Entity
 {
     public List<Stats> Characteristics { get; set; } = new();
     // Recetas...
@@ -12,5 +12,4 @@ public class Equipment : Entity
                $"Level: {Level}\nDescription: {Description}\nRarityClass: {RarityClass}\n" +
                $"RarityName: {RarityName}\nCharacteristics: {characteristicsString}";
     }
-
 }

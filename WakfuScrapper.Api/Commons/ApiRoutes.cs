@@ -8,4 +8,8 @@ public static class ApiRoutes
 
 
     public const string Armor = Base + "armor/";
+    public const string ArmorBy = "getBy/";
+
+    public const string Spell = Base + "spell/";
+    public const string SpellBy = "getBy/";
 }
